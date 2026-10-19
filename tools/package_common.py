@@ -80,7 +80,7 @@ def copy_resources(build, toolkit, destination):
     }.items():
         shutil.copy2(source, notices / name)
     (destination / "README.txt").write_text(
-        "Pocket Library\n\nA reading room of 725 books, each set as a printed book on the paper\n"
+        "Pocket Library\n\nA reading room of 746 books, each set as a printed book on the paper\n"
         "you choose and opened to the page you left. Search by title or author, click a\n"
         "spine to read; Help is the ? at the top right.\n"
         "Your places are kept per user, separate from this application folder.\n\n"

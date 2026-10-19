@@ -14357,6 +14357,1091 @@
      "sha256": "a4d11f0e4213277ca50ffba0d5bc4cc1e2d048b14f1286174d3c403bcec7f522"
     }
    ]
+  },
+  {
+   "id": "perseus-euclid-elements-heath",
+   "work": "Euclid, The Elements; translated by Thomas L. Heath, Cambridge University Press, 1908 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-greekLit/tree/0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-euclid-elements-heath-tlg1799.tlg001.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 1848389,
+     "sha256": "b41068f265202520a6c3dccb512b258a01b298be6004763cb92057ccd50802a8"
+    }
+   ]
+  },
+  {
+   "id": "perseus-apollodorus-library",
+   "work": "Apollodorus, The Library; translated by Sir James George Frazer, Loeb Classical Library, 1921 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-greekLit/tree/0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-apollodorus-library-tlg0548.tlg001.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0548/tlg001/tlg0548.tlg001.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 914556,
+     "sha256": "430128c5dcf93d082aaa8dd0a4a8db0ac93fe590c7476118d58da880dc18af58"
+    },
+    {
+     "name": "perseus-apollodorus-library-tlg0548.tlg002.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0548/tlg002/tlg0548.tlg002.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 478028,
+     "sha256": "ead660bd33d8fd332394b64bc7f291419d92bbd8995fd43f5eb474069c35a298"
+    }
+   ]
+  },
+  {
+   "id": "perseus-galen-natural-faculties",
+   "work": "Galen, On the Natural Faculties; translated by Arthur John Brock, Loeb Classical Library, 1916 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-greekLit/tree/0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-galen-natural-faculties-tlg0057.tlg010.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0057/tlg010/tlg0057.tlg010.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 331901,
+     "sha256": "b5c73116be7697793b36649ccaf49732a9d7f0222d7e557f232461211381be56"
+    }
+   ]
+  },
+  {
+   "id": "perseus-columella-agriculture",
+   "work": "Columella, On Agriculture; translated by Harrison Boyd Ash, E. S. Forster and Edward H. Heffner, Loeb Classical Library, 1941-1955 (Books 1 to 9) (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-latinLit/tree/128a05afa9cc7179ab18f8d05f78a9f1dd50e415",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-columella-agriculture-phi0845.phi002.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/phi0845/phi002/phi0845.phi002.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 841821,
+     "sha256": "329f095b220cd97381d45eeb8f26d6e18394cca23075cea442a282d056a122db"
+    }
+   ]
+  },
+  {
+   "id": "perseus-ovid-heroides",
+   "work": "Ovid, The Heroides; The Epistles of Ovid, London, 1813 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-latinLit/tree/128a05afa9cc7179ab18f8d05f78a9f1dd50e415",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-ovid-heroides-phi0959.phi002.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/phi0959/phi002/phi0959.phi002.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 265543,
+     "sha256": "c984102a653a436f20a86e0503b7296f5103bd846233856d5f8bfdac776b984c"
+    }
+   ]
+  },
+  {
+   "id": "perseus-hippocrates-genuine-works-volume-2",
+   "work": "Hippocrates, The Genuine Works, Volume 2; translated by Francis Adams, 1849 (Nutriment and Precepts by W. H. S. Jones, Loeb Classical Library, 1923) (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-greekLit/tree/0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg008.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg008/tlg0627.tlg008.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 28142,
+     "sha256": "5f154b09f837b27172bb77ef76a846cbd1f10291599767a872e6670438b8082c"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg009.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg009/tlg0627.tlg009.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 98489,
+     "sha256": "efff5af4c3d585b6b2a745f33f53b7c3911f014f3cb812235e928b0e4a3d1490"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg010.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg010/tlg0627.tlg010.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 175345,
+     "sha256": "4dc0612225499c2c570ce60b5e50f1cc78a6ac2f9b5543198208f1559545a3bc"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg011.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg011/tlg0627.tlg011.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 57774,
+     "sha256": "2792443308c5c977de715ff6b82d4629f27a84526e050b30a440e40ee206370c"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg012.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg012/tlg0627.tlg012.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 122725,
+     "sha256": "6dbe044dfbf4a6554bc3e1514ffef2e08e5c171586cb15d96be80fda5cb58850"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg013.perseus-eng4.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg013/tlg0627.tlg013.perseus-eng4.xml",
+     "retrieved": "2026-10-19",
+     "size": 5200,
+     "sha256": "3d59f239bf36c57717882fbaf9a5f90794c5b879994b9741001a5e3a4a3c38ed"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg014.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg014/tlg0627.tlg014.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 7044,
+     "sha256": "0a14e49cf233ce0860e5bf1540c6c6e693f56223ee6ca376c2084e433124f302"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg027.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg027/tlg0627.tlg027.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 38904,
+     "sha256": "b8ea5e9ced0b2af0bb9eea2ad4fc304aff4e3e9a18165cdb5bb4ee30287d4560"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg028.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg028/tlg0627.tlg028.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 33967,
+     "sha256": "052b28d0ddaa14405e838481cb3c449b27565790ae18c64a0ac5e949ed471717"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg029.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg029/tlg0627.tlg029.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 12275,
+     "sha256": "daf85d1698b13fe83ee4c3d77788ba67567211aab68fa0d9917d0d86a8b5e937"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg030.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg030/tlg0627.tlg030.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 17763,
+     "sha256": "7a88fffab396e9525bd2cc6833862aaab19b1af95d61863a108653e141caad7c"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg046.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg046/tlg0627.tlg046.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 22412,
+     "sha256": "3a1ec32609eb56f6a6bb6903852dd309ad662355551fefbd2fe25353045d5fc5"
+    },
+    {
+     "name": "perseus-hippocrates-genuine-works-volume-2-tlg0627.tlg051.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0627/tlg051/tlg0627.tlg051.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 25399,
+     "sha256": "0e3bb2a0fd907a01c8c9d0ce69ed2a9e753de13a5f09eb1c153c7b0a1e0729f8"
+    }
+   ]
+  },
+  {
+   "id": "perseus-aristotle-economics",
+   "work": "Aristotle, Economics; translated by G. Cyril Armstrong, Loeb Classical Library, 1935 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-greekLit/tree/0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-aristotle-economics-tlg0086.tlg029.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0086/tlg029/tlg0086.tlg029.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 85271,
+     "sha256": "94db9f9b0f009fdc8d27dea0316dac571723d2636a847e8d4162d19b9e33369d"
+    }
+   ]
+  },
+  {
+   "id": "perseus-aretaeus-works",
+   "work": "Aretaeus of Cappadocia, The Extant Works; translated by Francis Adams, 1856 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-greekLit/tree/0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-aretaeus-works-tlg0719.tlg001.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0719/tlg001/tlg0719.tlg001.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 91571,
+     "sha256": "c195a47281a5a41f76c628a01a6c5e153b9caaebdcdca670212e093d2d361ac4"
+    },
+    {
+     "name": "perseus-aretaeus-works-tlg0719.tlg002.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0719/tlg002/tlg0719.tlg002.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 164874,
+     "sha256": "7e9be17334f9a35d7aff087e14fb71aded8bc9c873fb51d2e06a7560463938d2"
+    },
+    {
+     "name": "perseus-aretaeus-works-tlg0719.tlg003.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0719/tlg003/tlg0719.tlg003.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 155145,
+     "sha256": "8881d19148651e0ac5e4200293c51ccca7f2154e2a01289bf81ca3822a2bb9e5"
+    },
+    {
+     "name": "perseus-aretaeus-works-tlg0719.tlg004.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0719/tlg004/tlg0719.tlg004.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 80678,
+     "sha256": "0ed5bbbbe348da38291b720534a4f4eccf7de1a2628b17f7cf0de3720ddd683f"
+    }
+   ]
+  },
+  {
+   "id": "perseus-bacchylides-poems",
+   "work": "Bacchylides, Poems and Fragments; translated by Diane Arnson Svarlien, 1996 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-greekLit/tree/0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-bacchylides-poems-tlg0199.tlg001.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0199/tlg001/tlg0199.tlg001.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 90392,
+     "sha256": "bcbadd5849a1035acd9684237902fde0a8b04086dc3a751d3ee882f84acae742"
+    },
+    {
+     "name": "perseus-bacchylides-poems-tlg0199.tlg002.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0199/tlg002/tlg0199.tlg002.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 30010,
+     "sha256": "77ca20ecd4d4795ab0ba87864b837499269cb1a7dd1ed5efcf59dc9ce5347edf"
+    }
+   ]
+  },
+  {
+   "id": "perseus-claudian-works",
+   "work": "Claudian, Works; translated by Maurice Platnauer, Loeb Classical Library, 1922 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-latinLit/tree/128a05afa9cc7179ab18f8d05f78a9f1dd50e415",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa001.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa001/stoa0089.stoa001.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 92724,
+     "sha256": "5d626a7037dc703628ad194e9aea6c6850578a2e137dbd79fd4c40a9924616a6"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa002.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa002/stoa0089.stoa002.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 36720,
+     "sha256": "281ef2975a1cec4354eb0b6bebde5e1940a5d9244144a75b2b22898aa9589905"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa003.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa003/stoa0089.stoa003.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 44621,
+     "sha256": "53571da0257dea2ffc5023c135c35f24b000ac1ff569320de49bd7857dbd21c1"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa004.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa004/stoa0089.stoa004.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 81701,
+     "sha256": "2aba867212f43eba8eb866b0eb68b4d3edae7a630cb05722f9b9887567ec32ba"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa005.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa005/stoa0089.stoa005.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 74145,
+     "sha256": "692238cf654efcb48b8a302d05e37e97322bdf4593f0ad0b273a58f939d39ef4"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa006.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa006/stoa0089.stoa006.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 26032,
+     "sha256": "2e50dd9178c43d8f6af42d8ab0c159f9e347d19d20cc6bbe74762c6e64a922fc"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa007.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa007/stoa0089.stoa007.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 9264,
+     "sha256": "bb6cb4342574c2e3557a724e36c99cdb9c3b273b3420af904b99d8fdc9cf0081"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa008.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa008/stoa0089.stoa008.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 80479,
+     "sha256": "b4769027c5ce023b457d7e0f0553983c7619d75021e041e07596063a6d890dd9"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa009.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa009/stoa0089.stoa009.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 63562,
+     "sha256": "47f16b74026532073c41f74fe8f5349205ae1caaf43a4b3efdb2db1a13b9e0c5"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa010.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa010/stoa0089.stoa010.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 17857,
+     "sha256": "ac25a763d51561ec4e395e493d7711c84e5dbf999450855c4f6c2a1f91c74c2c"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa011.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa011/stoa0089.stoa011.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 45154,
+     "sha256": "bc6d70493887896a1ec606131eef28d3c765894cd6449e2a7cb08d31c7aeca6d"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa012.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa012/stoa0089.stoa012.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 46187,
+     "sha256": "a4ac994888923c9c191183217fce44181251a43d2d98a36ff964d81d9ca4fb7d"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa013.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa013/stoa0089.stoa013.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 25837,
+     "sha256": "6122d666491c3b39ca6d5ec41c0d893264d675d031b6210b903afe21db20a380"
+    },
+    {
+     "name": "perseus-claudian-works-stoa0089.stoa014.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0089/stoa014/stoa0089.stoa014.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 19866,
+     "sha256": "58c48406b7132bdcc5b19eb807d77ecdc0d61b288de4add671ab090714d098ce"
+    }
+   ]
+  },
+  {
+   "id": "perseus-ausonius-works",
+   "work": "Ausonius, Works; translated by Hugh G. Evelyn-White, Loeb Classical Library, 1921 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-latinLit/tree/128a05afa9cc7179ab18f8d05f78a9f1dd50e415",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-ausonius-works-stoa0045.stoa010.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0045/stoa010/stoa0045.stoa010.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 45066,
+     "sha256": "1a2024eda95935adaf128cb43c2126e327b3646f347767ab1b9a2c91294946ee"
+    },
+    {
+     "name": "perseus-ausonius-works-stoa0045.stoa011.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0045/stoa011/stoa0045.stoa011.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 113552,
+     "sha256": "e91f85cb9252ddb4c7cb5879cab65261c4a50849e3e3e5987774a67dd0e6a0e5"
+    },
+    {
+     "name": "perseus-ausonius-works-stoa0045.stoa014.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0045/stoa014/stoa0045.stoa014.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 46806,
+     "sha256": "ffefdd126977a32b60fd43c5b7841c78472bcc52c1eb15f329822fc4d9d9b7a6"
+    }
+   ]
+  },
+  {
+   "id": "perseus-demades-on-twelve-years",
+   "work": "Demades, On the Twelve Years; translated by J. O. Burtt, Loeb Classical Library, 1954 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-greekLit/tree/0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-demades-on-twelve-years-tlg0535.tlg001.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0535/tlg001/tlg0535.tlg001.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 31540,
+     "sha256": "55f5cf23e8c6272afd86bcbc71b093e88caffc76708106a279b0180851db5241"
+    }
+   ]
+  },
+  {
+   "id": "perseus-demosthenes-speeches",
+   "work": "Demosthenes, Speeches; translated by C. A. Vince, J. H. Vince, A. T. Murray and N. W. and N. J. DeWitt, Loeb Classical Library, 1926-1949 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-greekLit/tree/0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg001.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg001/tlg0014.tlg001.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 23379,
+     "sha256": "b2f7518e387f151dba7db53237b04e64c5844e54d254a2f72f2d0ceb152c1c1d"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg002.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg002/tlg0014.tlg002.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 24635,
+     "sha256": "e8519e86a66fd09504086ff82885365c80f1ef14bfb490ca4dc5a96a0562ea4d"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg003.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg003/tlg0014.tlg003.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 26143,
+     "sha256": "298df3486b2875d5a79b8e3241f74cb53b7203fe08abf5016a4bebfa1f3f3a79"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg004.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg004/tlg0014.tlg004.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 37796,
+     "sha256": "fd4d46818cb4e760136646e4996488f24607a29d144a4c656e5a8e1112dde8c8"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg005.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg005/tlg0014.tlg005.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 25330,
+     "sha256": "0d235f3ee4c2bbe275dca5f7b9a6f9c574ac8c0cea7485bf6732c0ae8e899ea7"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg006.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg006/tlg0014.tlg006.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 27688,
+     "sha256": "f0c4be6a62c178e007be31f42d2cfd95b957c68855909d9130350b58fb64e0a5"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg007.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg007/tlg0014.tlg007.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 30444,
+     "sha256": "d0ada68d0ff24cc1824caef60a948d6d904409b04e3efa98a3b135f38b226613"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg008.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg008/tlg0014.tlg008.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 46734,
+     "sha256": "c7a19a2710206ecae87ed213eff93cea053b23340cad15d7837fe5bef12614cf"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg009.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg009/tlg0014.tlg009.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 49482,
+     "sha256": "32595a8e8da384e7302fd7f93a1a1732110f00bed47db53e0974767f76b460f4"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg010.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg010/tlg0014.tlg010.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 49447,
+     "sha256": "e41233cc5be1d3fca17d6c9d5eeb451bb1e36c2a5f64fb76880721903b9a56b4"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg011.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg011/tlg0014.tlg011.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 16099,
+     "sha256": "1cb6139437feb7429e737e6aa1f413e8ce47b4910f31e93ce0257552a6dec878"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg012.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg012/tlg0014.tlg012.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 22029,
+     "sha256": "5c7cd1a647d31ec60a792104e2c3b244597843a212385b44f17bd2c53682a2c4"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg013.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg013/tlg0014.tlg013.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 26877,
+     "sha256": "6ab10d6c4847d4bd30d7fba1a2401ecb14b17cde94330c8693f7f52656e39654"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg014.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg014/tlg0014.tlg014.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 30693,
+     "sha256": "4887081823eb655c287161ed80b7bed142a825e5cdbed8bd8941f259198a8cf4"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg015.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg015/tlg0014.tlg015.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 25557,
+     "sha256": "43daa451f05ef391d525bb7c3ea18a6cabd7457a6a48613179813612dd541417"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg016.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg016/tlg0014.tlg016.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 25362,
+     "sha256": "44d29e27b598e0e387ce94fa261eac186c66886214e51085a4e56ab7c30d2e39"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg017.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg017/tlg0014.tlg017.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 25276,
+     "sha256": "6275dcc2570ee949cba8d50b1e7e48f4deb75ebaaf319a3be747ea6efe6b1ca4"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg018.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg018/tlg0014.tlg018.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 226176,
+     "sha256": "3beaf98fdf26037b6169c12e1c565f1b73d708bea46c085fdd6590a10cdc7ae8"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg019.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg019/tlg0014.tlg019.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 238221,
+     "sha256": "93a263a09029c9d7cfa119f0f47ab6ec7619a8d604e3306127f1e27736e1ca66"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg020.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg020/tlg0014.tlg020.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 125288,
+     "sha256": "cfea4870d4a9f83de9052e9c35eb1e0cb21a9afcdf6e3731ef1b8ace64dbb84b"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg021.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg021/tlg0014.tlg021.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 156959,
+     "sha256": "bb6a97237b5f380cb472954d5dbd53df01026f3cb3701a6dc0dd6f280f45f747"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg022.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg022/tlg0014.tlg022.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 56879,
+     "sha256": "43c303e475eeb37349fff6c5d89339e944df7574937cb5b1ac6f7d574e38cba8"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg023.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg023/tlg0014.tlg023.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 159154,
+     "sha256": "93742303fc8748fef62c68b3d1c1612574d21616a621939de78341da97dcf2aa"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg024.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg024/tlg0014.tlg024.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 144980,
+     "sha256": "7beb68404810880bc64b18f7a9ac0b82e4f5afa8e4ab968dbe763c08f77d1136"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg025.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg025/tlg0014.tlg025.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 66092,
+     "sha256": "47c8d0740c95f95d5a967950c1681e17b7f2108e2d97cd0e2ef036bb1767e97e"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg026.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg026/tlg0014.tlg026.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 18696,
+     "sha256": "dbac9bebddefe5f1ea029a18d9856e8ff2ec53704c1a33cf5b0861ded6fd4da5"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg027.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg027/tlg0014.tlg027.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 51892,
+     "sha256": "48916f36edaa60888d74dd0f597075abf39bdacdbafde7f99fb1013f580fb521"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg028.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg028/tlg0014.tlg028.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 21740,
+     "sha256": "4e86b821dffcc618d171dd81969135d7a8807df07907940bbd42d0d5f81f9bba"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg029.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg029/tlg0014.tlg029.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 46120,
+     "sha256": "19549085fb7901e69a407fac3de50da376e45aedd1b993b996a7dcebcb71fe28"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg030.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg030/tlg0014.tlg030.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 30428,
+     "sha256": "a3ed607c3cfc7b42af6b4b699ca9bb12913834067ac21e0995967ee989ad4670"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg031.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg031/tlg0014.tlg031.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 13518,
+     "sha256": "e6a285ccf1fd2044433e9f738dcfe483535db8db6fdd4b812225604ff0fe2264"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg032.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg032/tlg0014.tlg032.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 23773,
+     "sha256": "c28775c3abb98d6ef5d5962bcceab13bd27f0cf9f609ae80a90209722ff6f328"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg033.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg033/tlg0014.tlg033.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 29626,
+     "sha256": "58fd1e049b6f6b851002bfb268b2e7fd18ce9285d02d77e3f290887eea3a1f8d"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg034.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg034/tlg0014.tlg034.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 43803,
+     "sha256": "6b3d47a3a5ae90cd2753bc0b910fbc61dea70bddcabbe13d8d95d7496f3ae864"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg035.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg035/tlg0014.tlg035.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 44863,
+     "sha256": "8a9f4a7fcef782be0ad15289fdbe22bdd188ef0094b425fd15e332cd6990723b"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg036.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg036/tlg0014.tlg036.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 50028,
+     "sha256": "127626823643b36a72aedeeb7982574a1b3c4a1ba8ad740ad5a640f38afdc8c8"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg037.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg037/tlg0014.tlg037.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 46702,
+     "sha256": "38642f7e6875668fadcc37617175cb821e57acbffba9429fc32aece734abee5d"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg038.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg038/tlg0014.tlg038.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 23757,
+     "sha256": "905fc29210962732992f5d8d0879b88541c09b3852c045756ce46a00bde972c3"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg039.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg039/tlg0014.tlg039.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 35984,
+     "sha256": "836f552a2c73f0272269d18c7da86ee321d2063f61ba769bb2784cdb2bed9f40"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg040.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg040/tlg0014.tlg040.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 45169,
+     "sha256": "6206e44489b47fa5f24ea08a320a73479be08915e6766d9e4c26546d3166b5a1"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg041.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg041/tlg0014.tlg041.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 24276,
+     "sha256": "8d8e4973645fe74e5d77ac7bcef60c1e7a512493e2be8380b36fe17a32921ece"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg042.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg042/tlg0014.tlg042.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 27765,
+     "sha256": "919b12f1aaf157036e910c5f7ec9ff3465f9fb5726ed2540d1e3763e02d5894c"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg043.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg043/tlg0014.tlg043.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 64840,
+     "sha256": "4285cdafbe893d05f16ca3d1fc5c33431e28161103ac3503a7c04026f62fa870"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg044.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg044/tlg0014.tlg044.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 47225,
+     "sha256": "7babc18631c6698d1e4b81ef66d56b10c3ff272f853768a4b5e3e783521e9b70"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg045.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg045/tlg0014.tlg045.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 66024,
+     "sha256": "940e91aec8886c2769512e26c4bac2d73c8056fd554d244fed418b619bb83893"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg046.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg046/tlg0014.tlg046.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 24536,
+     "sha256": "c9f7b69da6c5b0bf7c984daccdb8b9c35c7fdbcc19d4b11794d3c2451a7683cf"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg047.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg047/tlg0014.tlg047.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 59594,
+     "sha256": "379dd1cf0b63400e3abc3b49f93e87ce0dc832906bb028bb8e8c2183ba2bb2d6"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg048.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg048/tlg0014.tlg048.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 36403,
+     "sha256": "c7e0d5edcb3db45b4d84beea6887affa1772600c59a5491d4cbd3d7a36b0b24c"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg049.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg049/tlg0014.tlg049.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 45954,
+     "sha256": "79a7415d3527da48b34c240b7100bd9a978e7ff871fc4a1261655829d548be05"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg050.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg050/tlg0014.tlg050.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 48933,
+     "sha256": "0582b80c44caeb148c4efb984362942db772dc9f1b247b076ac784b2701a713f"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg051.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg051/tlg0014.tlg051.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 17828,
+     "sha256": "1f775832b2345299bbf3601fb9b1dce4f601348867f6a5a2298aeeb9eec27654"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg052.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg052/tlg0014.tlg052.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 25264,
+     "sha256": "1f5b677bf4c70c8ce11024724dd84bbae4cfa4f12d2655d43ae2cb6ee97e1b0e"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg053.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg053/tlg0014.tlg053.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 24255,
+     "sha256": "dc6fc63d9eb1a694c82072f814e964fe231e9f2b0673345f12ac099650f3dab0"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg054.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg054/tlg0014.tlg054.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 41984,
+     "sha256": "58ca4a074253504def0439f770fd0ff32938e7d8a54af761f9aaf8ec1b1e55fb"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg055.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg055/tlg0014.tlg055.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 24814,
+     "sha256": "57a2fb675904f416676292c661b1c8116c228b2dce835c9c36100787d4981969"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg056.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg056/tlg0014.tlg056.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 39321,
+     "sha256": "4f7a3dbde5c08d9d0f8689f821dbd1861ee9aa547da730902026fef9d4ea86f5"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg057.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg057/tlg0014.tlg057.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 55324,
+     "sha256": "00106a32f82a7e0a68148266f0fe6698d9ee1301cc911d5370d15061cf3c8c8c"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg058.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg058/tlg0014.tlg058.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 58265,
+     "sha256": "dd959549b059401db774b8eeca9fb64a26b11241c82bf759919574d266d3d422"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg059.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg059/tlg0014.tlg059.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 106211,
+     "sha256": "e8092eb202242d46709e25b4337ac490f091373597182a9e41c6d3558058deac"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg060.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg060/tlg0014.tlg060.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 42278,
+     "sha256": "2187d3d2d9cb7cb58f634083f1f78b3518abf03b8a694c5e8514577e7e9f31c4"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg061.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg061/tlg0014.tlg061.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 46402,
+     "sha256": "c2aa801e84d9dd3c4e6f4de60e91d6c30f2e2d9b2086d8c74797c4959f0cb87a"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg062.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg062/tlg0014.tlg062.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 115128,
+     "sha256": "fcbae302446fecdfc1940f67056297078d981a347fb5d08fb013da9d8f48d25f"
+    },
+    {
+     "name": "perseus-demosthenes-speeches-tlg0014.tlg063.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0014/tlg063/tlg0014.tlg063.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 88590,
+     "sha256": "07a4141b490b7414cf59c534ffe9cf349fbbb143609a82b405a1b57dd520bd32"
+    }
+   ]
+  },
+  {
+   "id": "perseus-diogenes-laertius-lives-philosophers",
+   "work": "Diogenes Laertius, Lives of Eminent Philosophers; translated by R. D. Hicks, Loeb Classical Library, 1925 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-greekLit/tree/0189b9c8d8d1f148133f2f0af309b4ee90ea4332",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-diogenes-laertius-lives-philosophers-tlg0004.tlg001.perseus-eng2.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/0189b9c8d8d1f148133f2f0af309b4ee90ea4332/data/tlg0004/tlg001/tlg0004.tlg001.perseus-eng2.xml",
+     "retrieved": "2026-10-19",
+     "size": 1356572,
+     "sha256": "102e405ff1f298421f67db18c365a4fd1eae7269660897ce199d7ccf5a7c486f"
+    }
+   ]
+  },
+  {
+   "id": "perseus-phaedrus-fables",
+   "work": "Phaedrus, Fables; translated by Christopher Smart (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-latinLit/tree/128a05afa9cc7179ab18f8d05f78a9f1dd50e415",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-phaedrus-fables-phi0975.phi001.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/phi0975/phi001/phi0975.phi001.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 123021,
+     "sha256": "d528a143b95ff665f40a2ff2911d1db88ed205b8b4bc2345cfa00bab58c8ff87"
+    }
+   ]
+  },
+  {
+   "id": "perseus-boethius-theological-tractates",
+   "work": "Boethius, Theological Tractates; translated by H. F. Stewart and E. K. Rand, Loeb Classical Library, 1918 (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-latinLit/tree/128a05afa9cc7179ab18f8d05f78a9f1dd50e415",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-boethius-theological-tractates-stoa0058.stoa003.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0058/stoa003/stoa0058.stoa003.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 13222,
+     "sha256": "f2711e66bf1991b4e88292eec1a04a1681696ef46b9922b5fddce75dff6a7182"
+    },
+    {
+     "name": "perseus-boethius-theological-tractates-stoa0058.stoa006.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0058/stoa006/stoa0058.stoa006.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 18922,
+     "sha256": "70e00cd1b1c0bd8376fe7339d7ed14ff6b31f91a9b184be61925a6493f996029"
+    },
+    {
+     "name": "perseus-boethius-theological-tractates-stoa0058.stoa023.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0058/stoa023/stoa0058.stoa023.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 51194,
+     "sha256": "8ececd97e8142447b1e75c69f32fd48a76bc430b3dc39307887d516d84c18cb0"
+    },
+    {
+     "name": "perseus-boethius-theological-tractates-stoa0058.stoa025.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0058/stoa025/stoa0058.stoa025.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 25646,
+     "sha256": "5aa019010e3f3d8f3783ed7aebdbdc29d4c8640b2f8d2946a583aa36874aded4"
+    },
+    {
+     "name": "perseus-boethius-theological-tractates-stoa0058.stoa028.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/stoa0058/stoa028/stoa0058.stoa028.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 7143,
+     "sha256": "926d9027f5931bde85864f510923d551c07e21faaf5f119e317ba8b6702d3104"
+    }
+   ]
+  },
+  {
+   "id": "perseus-quintus-cicero-electioneering",
+   "work": "Quintus Tullius Cicero, On Electioneering; translated by Evelyn S. Shuckburgh (Perseus TEI)",
+   "upstream": "https://github.com/PerseusDL/canonical-latinLit/tree/128a05afa9cc7179ab18f8d05f78a9f1dd50e415",
+   "licence": "CC BY-SA 4.0 (Perseus Digital Library)",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "perseus-quintus-cicero-electioneering-phi0478.phi003.perseus-eng1.xml",
+     "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/phi0478/phi003/phi0478.phi003.perseus-eng1.xml",
+     "retrieved": "2026-10-19",
+     "size": 86179,
+     "sha256": "30e98aae35a3d7946b9f76d066b27cc4ddcffb473e0419e9522206fbec1f8b8a"
+    }
+   ]
+  },
+  {
+   "id": "mit-aristotle-physics",
+   "work": "Aristotle, Physics; translated by R. P. Hardie and R. K. Gaye, Oxford, 1930 (The Internet Classics Archive, classics.mit.edu)",
+   "upstream": "https://classics.mit.edu/Browse/browse-Aristotle.html",
+   "licence": "US public domain translations (Oxford, 1882-1930); the Archive permits distribution for educational use",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "mit-physics.mb.txt",
+     "url": "https://classics.mit.edu/Aristotle/physics.mb.txt",
+     "retrieved": "2026-10-19",
+     "size": 466629,
+     "sha256": "0760bc2fec07afefd233a01b4d3590cd9b99d760f5a7efcbd50e230af5bf8fc4"
+    }
+   ]
+  },
+  {
+   "id": "mit-aristotle-heavens-generation-meteorology",
+   "work": "Aristotle, On the Heavens; On Generation and Corruption; Meteorology; translated by J. L. Stocks, H. H. Joachim and E. W. Webster, Oxford, 1922-1923 (The Internet Classics Archive, classics.mit.edu)",
+   "upstream": "https://classics.mit.edu/Browse/browse-Aristotle.html",
+   "licence": "US public domain translations (Oxford, 1882-1930); the Archive permits distribution for educational use",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "mit-heavens.mb.txt",
+     "url": "https://classics.mit.edu/Aristotle/heavens.mb.txt",
+     "retrieved": "2026-10-19",
+     "size": 226839,
+     "sha256": "accf0a813b2682051ddd6d7ef8bda8126d36e74baa36e9d140e7a6279dbfb67e"
+    },
+    {
+     "name": "mit-gener_corr.mb.txt",
+     "url": "https://classics.mit.edu/Aristotle/gener_corr.mb.txt",
+     "retrieved": "2026-10-19",
+     "size": 156315,
+     "sha256": "0e3bcde152c00a979ee2dcf90c7373ed98489647fe0ec7cef8d304a2d9a9426d"
+    },
+    {
+     "name": "mit-meteorology.mb.txt",
+     "url": "https://classics.mit.edu/Aristotle/meteorology.mb.txt",
+     "retrieved": "2026-10-19",
+     "size": 236070,
+     "sha256": "253398f52988ff5f9c5885d6267d0a6d345df8cf072e1c1733da32b765a1ec69"
+    }
+   ]
+  },
+  {
+   "id": "mit-aristotle-parts-motion-animals",
+   "work": "Aristotle, On the Parts and the Motion of Animals; translated by William Ogle (1882) and A. S. L. Farquharson (1912) (The Internet Classics Archive, classics.mit.edu)",
+   "upstream": "https://classics.mit.edu/Browse/browse-Aristotle.html",
+   "licence": "US public domain translations (Oxford, 1882-1930); the Archive permits distribution for educational use",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "mit-parts_animals.mb.txt",
+     "url": "https://classics.mit.edu/Aristotle/parts_animals.mb.txt",
+     "retrieved": "2026-10-19",
+     "size": 338219,
+     "sha256": "ab1126f1edc5cb07da59a402c9f7b4771c186fe7bac5be28ce18637dcf7897bb"
+    },
+    {
+     "name": "mit-motion_animals.1b.txt",
+     "url": "https://classics.mit.edu/Aristotle/motion_animals.1b.txt",
+     "retrieved": "2026-10-19",
+     "size": 33560,
+     "sha256": "f5872413c62cc9ac0756e390a90ac51beb34354e2e887c22bd811c159522bcda"
+    }
+   ]
+  },
+  {
+   "id": "mit-aristotle-parva-naturalia",
+   "work": "Aristotle, Parva Naturalia; translated by J. I. Beare and G. R. T. Ross, Oxford, 1908 (The Internet Classics Archive, classics.mit.edu)",
+   "upstream": "https://classics.mit.edu/Browse/browse-Aristotle.html",
+   "licence": "US public domain translations (Oxford, 1882-1930); the Archive permits distribution for educational use",
+   "status": "cleared",
+   "files": [
+    {
+     "name": "mit-sense.mb.txt",
+     "url": "https://classics.mit.edu/Aristotle/sense.mb.txt",
+     "retrieved": "2026-10-19",
+     "size": 77903,
+     "sha256": "7bde56b23c8bf781b6b14486bc22268238903a7317a598ffa69049b74f77129a"
+    },
+    {
+     "name": "mit-memory.1b.txt",
+     "url": "https://classics.mit.edu/Aristotle/memory.1b.txt",
+     "retrieved": "2026-10-19",
+     "size": 29965,
+     "sha256": "810634c742a3ce75ede071eef9394a15bd0b5ba9dcc666be29480bd992690b59"
+    },
+    {
+     "name": "mit-sleep.1b.txt",
+     "url": "https://classics.mit.edu/Aristotle/sleep.1b.txt",
+     "retrieved": "2026-10-19",
+     "size": 29157,
+     "sha256": "6c646ce9bc49e62229e8dba9eb7cccf3a68d3608de4190c9038327864431b95b"
+    },
+    {
+     "name": "mit-dreams.1b.txt",
+     "url": "https://classics.mit.edu/Aristotle/dreams.1b.txt",
+     "retrieved": "2026-10-19",
+     "size": 25718,
+     "sha256": "b52954c0fd4d72a56a04126e8faf34c6b2efd0c3fb517c0ed5e6fbd54dd586c8"
+    },
+    {
+     "name": "mit-prophesying.1b.txt",
+     "url": "https://classics.mit.edu/Aristotle/prophesying.1b.txt",
+     "retrieved": "2026-10-19",
+     "size": 13931,
+     "sha256": "c29bc5472069f79ba9b192dfed12257cfffad1ff241fdc30de0ae9b1e5fb95ea"
+    },
+    {
+     "name": "mit-longev_short.1b.txt",
+     "url": "https://classics.mit.edu/Aristotle/longev_short.1b.txt",
+     "retrieved": "2026-10-19",
+     "size": 16517,
+     "sha256": "3bba800ebc286ace5093131fe580ca1384a1d0fa342195ddc24c79d1e4de5015"
+    },
+    {
+     "name": "mit-youth_old.mb.txt",
+     "url": "https://classics.mit.edu/Aristotle/youth_old.mb.txt",
+     "retrieved": "2026-10-19",
+     "size": 60839,
+     "sha256": "356c8e934d7c97945b800224f025d7fc620c277a715a96b75c54569781685b8c"
+    }
+   ]
   }
  ]
 }

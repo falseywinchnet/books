@@ -24,7 +24,7 @@ they left.
 
 ## Replayability
 
-A library is read, not replayed. Every book keeps its own place. The shelves hold 725
+A library is read, not replayed. Every book keeps its own place. The shelves hold 746
 books on fourteen planks: Scripture, Rabbinic writings, Church Fathers and Reference (our
 own importers, `tools/import_books.py`, `sefaria_reader.py`, `lexicon_reader.py` and
 `usfm_reader.py`), Philosophy, History, Society and Science, and the novels, plays,
@@ -36,7 +36,15 @@ Mishneh Torah, Josephus, the Shinto chronicles and the owner's named works) was 
 from a list of candidates and catalogued by `tools/add_selection.py`, the books coded as
 block 3; Perseus' TEI is read by `perseus_reader.py`. The mathematical books (Euclid,
 Newton's Principia and Opticks, Proclus on Euclid) are read as text; their figures wait
-for the reader to print them.
+for the reader to print them. Block 4 (21) took what had no clean source then, from Perseus and
+from the Internet Classics Archive (`mit_reader.py`). Still waiting, for want of a clean
+text anyone can fetch: Legge's Texts of Taoism (SBE 39 and 40), Jacobi's Jaina Sutras
+(SBE 22 and 45), the Yengishiki, Mead's Thrice-Greatest Hermes and Taylor's Orphic Hymns
+(clean only on sacred-texts.com, which refuses scripts), Hegel's Phenomenology,
+Philosophy of History and Philosophy of Right, Aristotle's On the Soul (Smith, 1931: US
+public domain in 2027), Diodorus, Eckermann, Martial, Propertius, Herodas, Vegetius,
+Menander and the Greek mathematicians (scans only), and Faulkner's later books (not yet
+public domain).
 
 The books ship in parts (`src/container.hpp`): a base and blocks of books coded against
 it, listed in `assets/books/parts.txt` and pinned in `pinned_assets.json`. The parts are

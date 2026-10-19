@@ -14,6 +14,7 @@ type="marg", too), <emph>, <hi>, <foreign> and <title> italic, <lb/> a space; <p
 <milestone/> and <gap/> carry nothing and are counted. Anything else is an error.
 """
 
+import html.entities
 import re
 import typing
 import xml.etree.ElementTree as ElementTree
@@ -32,6 +33,12 @@ SKIPPED = ("pb", "milestone", "gap", "anchor", "figure", "graphic", "index", "sp
 
 def local(tag: str) -> str:
     return tag.split("}", 1)[1] if "}" in tag else tag
+
+
+def named(root: ElementTree.Element, name: str) -> typing.Iterator[ElementTree.Element]:
+    """Every element of that name, with or without the TEI namespace (older Perseus files
+    have none)."""
+    return (element for element in root.iter() if isinstance(element.tag, str) and local(element.tag) == name)
 
 
 def spaced(text: typing.Optional[str]) -> str:
@@ -90,6 +97,8 @@ class Walker:
             self.text(" ")
         elif tag in SKIPPED:
             self.book.dropped["<%s> (a page, a reference point or a gap: nothing to set)" % tag] += 1
+        elif tag == "table":
+            self.table(element)
         elif tag in ("listPerson", "castList", "castGroup", "list", "person", "castItem", "item"):
             # A list standing inside a line (a cast in a play's first line): its items run on.
             self.inlines(element)
@@ -133,11 +142,15 @@ class Walker:
 
     def block(self, element: ElementTree.Element, depth: int, quote: bool) -> None:
         tag = local(element.tag)
-        if tag == "div":
-            subtype = element.get("subtype") or element.get("type") or ""
+        numbered_div = re.fullmatch(r"div[1-7]", tag) is not None
+        if tag == "div" or numbered_div:
+            # Older files number their divisions (div1, div2...) and name their kind in
+            # `type`: each is a text part.
+            textpart = numbered_div or element.get("type") == "textpart"
+            subtype = (element.get("type") if numbered_div else element.get("subtype") or element.get("type")) or ""
             n = element.get("n") or ""
             heads = [child for child in element if local(child.tag) == "head"]
-            if depth == 0 and element.get("type") == "textpart" and subtype in NUMBERED_ONLY and not heads:
+            if depth == 0 and textpart and subtype in NUMBERED_ONLY and not heads:
                 # A speech or a treatise cut only into numbered sections: one chapter, its
                 # sections numbered in the margin.
                 if not self.chaptered:
@@ -146,7 +159,7 @@ class Walker:
                 if n:
                     self.numbered(element, n)
                 self.blocks_without_heads(element, depth + 1, quote)
-            elif depth == 0 and element.get("type") == "textpart":
+            elif depth == 0 and textpart:
                 if n == "front":
                     n = ""
                     subtype = "the persons and the subject" if subtype == "act" else subtype
@@ -162,7 +175,7 @@ class Walker:
                     self.open = False
                 if n and n.isdigit():
                     self.numbered(element, n)
-                self.blocks_without_heads(element, depth + 1 if element.get("type") == "textpart" else depth, quote)
+                self.blocks_without_heads(element, depth + 1 if textpart else depth, quote)
         elif tag == "head":
             self.book.add("S", "1", spaced(head_text(element)).strip())
             self.open = False
@@ -211,6 +224,8 @@ class Walker:
                         continue
                     self.start("list1")
                     self.inlines(child)
+        elif tag == "table":
+            self.table(element)
         elif tag in ("note",):
             if not self.open:
                 self.start("p")
@@ -223,6 +238,15 @@ class Walker:
             self.inline(element)
         else:
             raise ValueError("an unknown block element <%s>" % tag)
+
+    def table(self, element: ElementTree.Element) -> None:
+        """A table, each row a line, its cells one after another."""
+        for row in named(element, "row"):
+            cells = [spaced("".join(cell.itertext())).strip() for cell in row if local(cell.tag) == "cell"]
+            if any(cells):
+                self.start("flush")
+                self.text("   ".join(cell for cell in cells if cell))
+        self.book.dropped["tables (each row set as a line)"] += 1
 
     def blocks_without_heads(self, element: ElementTree.Element, depth: int, quote: bool) -> None:
         if element.text and element.text.strip():
@@ -252,29 +276,55 @@ def heading_of(heads: list) -> str:
 
 
 def title_of(root: ElementTree.Element) -> str:
-    for title in root.iter(TEI + "title"):
+    for title in named(root, "title"):
         text = spaced("".join(title.itertext())).strip()
         if text and title.get("type") != "sub":
             return re.sub(r"\.?\s*Machine readable text$", "", text)
     return "Untitled"
 
 
+XML_ENTITIES = ("amp", "lt", "gt", "quot", "apos")
+
+
+def parse(data: bytes, book: typing.Any) -> ElementTree.Element:
+    """A TEI file, its doctype left out: an older file names characters by the entities its
+    DTD defined (&mdash;), which are the HTML ones, and Perseus' own boilerplate by entities
+    of its own (&Perseus.publish;), which carry nothing of the text and are counted."""
+    text = data.decode("utf-8")
+    text = re.sub(r"<!DOCTYPE[^\[>]*(\[.*?\])?\s*>", "", text, count=1, flags=re.S)
+
+    def entity(match: re.Match) -> str:
+        name = match.group(1)
+        if name in XML_ENTITIES:
+            return match.group(0)
+        if name + ";" in html.entities.html5:
+            return html.entities.html5[name + ";"]
+        book.dropped["Perseus' own entities (its imprint, not the text)"] += 1
+        return ""
+    text = re.sub(r"&([A-Za-z][A-Za-z0-9._-]*);", entity, text)
+    return ElementTree.fromstring(text)
+
+
 def import_perseus(documents: typing.List[bytes], book: typing.Any) -> None:
     """Appends each document as a division."""
     for data in documents:
-        root = ElementTree.fromstring(data)
+        root = parse(data, book)
         title = title_of(root)
-        body = next(root.iter(TEI + "body"))
+        body = next(named(root, "body"))
         translation = None
-        for div in body.iter(TEI + "div"):
+        for div in named(body, "div"):
             if div.get("type") in ("translation", "edition"):
                 translation = div
                 break
         book.add("B", re.sub(r"[^A-Za-z0-9]+", "-", title).strip("-")[:40] or "work", title, title)
+        opened = len(book.records)
         walker = Walker(book)
         if translation is not None and not any(local(child.tag) == "div" for child in translation):
             book.add("C", "")
             walker.blocks(translation, 1)
         else:
             walker.blocks_without_heads(translation if translation is not None else body, 0, False)
+        if not any(record[0] == "C" for record in book.records[opened:]):
+            # A work in no parts at all: one chapter.
+            book.records.insert(opened, ("C", ""))
     book.head.append(("works", len(documents)))

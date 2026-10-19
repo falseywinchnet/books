@@ -1086,11 +1086,13 @@ def write_shelf(path: str, catalogue: list, sources: dict) -> None:
 def import_entry(sources: dict, folder: str, out: str, entry: dict) -> str:
     """A catalogue book read by a general importer: `epub` (an EPUB), `sefaria` (Sefaria's
     JSON, one file a division, in the order `files` gives), `perseus` (Perseus' TEI, one
-    file a work, in the order `files` gives), `tbes` (a STEPBible brief
+    file a work, in the order `files` gives), `mit` (the Internet Classics Archive's plain
+    texts, one file a work), `tbes` (a STEPBible brief
     lexicon, its `language` G or H), `abbott-smith` (Abbott-Smith's TEI) or `usfm` (the
     books `codes` names from a zipped USFM Bible)."""
     import epub_reader
     import lexicon_reader
+    import mit_reader
     import perseus_reader
     import sefaria_reader
     import usfm_reader
@@ -1104,6 +1106,8 @@ def import_entry(sources: dict, folder: str, out: str, entry: dict) -> str:
         epub_reader.import_epub(data, book, entry["id"])
     elif importer == "sefaria":
         sefaria_reader.import_sefaria([sefaria_reader.load(bytes_) for bytes_, _ in pinned], book)
+    elif importer == "mit":
+        mit_reader.import_mit([bytes_ for bytes_, _ in pinned], book)
     elif importer == "perseus":
         perseus_reader.import_perseus([bytes_ for bytes_, _ in pinned], book)
     elif importer == "tbes":

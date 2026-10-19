@@ -217,7 +217,14 @@ The importers learned more for block 3: Wikisource's chapter footnotes, CCEL's t
 Perseus' TEI (`perseus_reader.py`), Sefaria's links, and Hebrew given in Latin letters and
 Japanese, Arabic and Syriac characters left out wherever they stand (the faces have
 none). Blocks 1 and 2 were made before that; a block is never re-made unless its own books
-change, and then it is re-imported with the importers as they stand. The one-file library it replaces (format 3) was
+change, and then it is re-imported with the importers as they stand.
+
+Block 4 (2026-10-19): 21 books of the Greeks and Romans that had no clean source for block
+3, from Perseus' TEI (Diogenes Laertius, Demosthenes complete, Heath's Euclid,
+Apollodorus, Claudian, Ausonius, Phaedrus, Columella, the second volume of Hippocrates
+and others) and the Internet Classics Archive's Oxford Aristotle (`mit_reader.py`: the
+Physics and the works on nature), 11,680,270 bytes of text in 2,307,186 (19.75%). The
+library is then 746 books in 148,171,465 bytes. The one-file library it replaces (format 3) was
 85,802,857 bytes; the shelf records it carried now live in the shelf index.
 
 ```sh

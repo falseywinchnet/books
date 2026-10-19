@@ -17,7 +17,7 @@ book in Literata or in EB Garamond), the paper (India, Book, Wove, Laid, Rag,
 Parchment, Recycled, Kraft, Night, light ink on dark paper, and Phosphor, green on
 black), the paper's texture and the shadow in the gutter.
 
-The shelves hold 725 books, a plank to each kind. Scripture: the Berean Standard
+The shelves hold 746 books, a plank to each kind. Scripture: the Berean Standard
 Bible, the Holy Scriptures of the Jewish Publication Society (1917), the deuterocanon of
 the World English Bible, 1 Enoch, Josephus, the Kojiki and the Nihongi. Rabbinic writings: the Mishnah, Gorfinkle's
 Sayings of the Jewish Fathers, Cohen's Tractate Berakot, the Talmud in four volumes (the

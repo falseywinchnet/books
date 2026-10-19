@@ -1381,6 +1381,16 @@ category	Philosophy
 edition	Xenophon, The Symposium; H. G. Dakyns
 block	3
 
+book	boethius-theological-tractates
+title	Theological Tractates
+subtitle	Boethius
+category	Philosophy
+edition	Boethius, Theological Tractates; translated by H. F. Stewart and E. K. Rand, Loeb Classical Library, 1918 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by H. F. Stewart and E. K. Rand, Loeb Classical Library, 1918
+block	4
+
 book	cicero-on-divination
 title	On Divination
 subtitle	Cicero
@@ -1400,6 +1410,16 @@ licence	CC BY-SA 4.0
 licence_url	https://creativecommons.org/licenses/by-sa/4.0/
 credit	Perseus Digital Library, Tufts University: translated by Walter Miller, Loeb Classical Library, 1913
 block	3
+
+book	diogenes-laertius-lives-philosophers
+title	Lives of Eminent Philosophers
+subtitle	Diogenes Laertius
+category	Philosophy
+edition	Diogenes Laertius, Lives of Eminent Philosophers; translated by R. D. Hicks, Loeb Classical Library, 1925 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by R. D. Hicks, Loeb Classical Library, 1925
+block	4
 
 book	arrian-anabasis-alexander
 title	The Anabasis of Alexander
@@ -1695,6 +1715,16 @@ category	History
 edition	Pliny the Younger, Letters; William Melmoth 1746, rev. Bosanquet
 block	3
 
+book	apollodorus-library
+title	The Library
+subtitle	Apollodorus
+category	History
+edition	Apollodorus, The Library; translated by Sir James George Frazer, Loeb Classical Library, 1921 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Sir James George Frazer, Loeb Classical Library, 1921
+block	4
+
 book	appian-roman-history
 title	The Roman History
 subtitle	Appian
@@ -1980,6 +2010,26 @@ licence_url	https://creativecommons.org/licenses/by-sa/4.0/
 credit	Perseus Digital Library, Tufts University: translated by Kenneth John Maidment, William Heinemann, Ltd., 1941; translated by J. O. Burtt, William Heinemann, Ltd., 1954; translated by Edward Seymour Forster, Harvard University Press, 1962
 block	3
 
+book	aristotle-economics
+title	Economics
+subtitle	Aristotle
+category	Society
+edition	Aristotle, Economics; translated by G. Cyril Armstrong, Loeb Classical Library, 1935 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by G. Cyril Armstrong, Loeb Classical Library, 1935
+block	4
+
+book	quintus-cicero-electioneering
+title	On Electioneering
+subtitle	Quintus Tullius Cicero
+category	Society
+edition	Quintus Tullius Cicero, On Electioneering; translated by Evelyn S. Shuckburgh (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Evelyn S. Shuckburgh
+block	4
+
 book	cicero-orations
 title	Orations
 subtitle	Cicero
@@ -1989,6 +2039,26 @@ licence	CC BY-SA 4.0
 licence_url	https://creativecommons.org/licenses/by-sa/4.0/
 credit	Perseus Digital Library, Tufts University: translated by Charles Duke Yonge, Henry G. Bohn and George Bell & Sons, 1856-1903
 block	3
+
+book	demades-on-twelve-years
+title	On the Twelve Years
+subtitle	Demades
+category	Society
+edition	Demades, On the Twelve Years; translated by J. O. Burtt, Loeb Classical Library, 1954 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by J. O. Burtt, Loeb Classical Library, 1954
+block	4
+
+book	demosthenes-speeches
+title	Speeches
+subtitle	Demosthenes
+category	Society
+edition	Demosthenes, Speeches; translated by C. A. Vince, J. H. Vince, A. T. Murray and N. W. and N. J. DeWitt, Loeb Classical Library, 1926-1949 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by C. A. Vince, J. H. Vince, A. T. Murray and N. W. and N. J. DeWitt, Loeb Classical Library, 1926-1949
+block	4
 
 book	gellius-attic-nights
 title	Attic Nights
@@ -2019,6 +2089,38 @@ licence	CC BY-SA 4.0
 licence_url	https://creativecommons.org/licenses/by-sa/4.0/
 credit	Perseus Digital Library, Tufts University: translated by Harold Edgeworth Butler, Loeb Classical Library, 1920-1922
 block	3
+
+book	aristotle-heavens-generation-meteorology
+title	On the Heavens; On Generation and Corruption; Meteorology
+subtitle	Aristotle
+category	Science
+edition	Aristotle, On the Heavens; On Generation and Corruption; Meteorology; translated by J. L. Stocks, H. H. Joachim and E. W. Webster, Oxford, 1922-1923 (The Internet Classics Archive, classics.mit.edu)
+credit	translated by J. L. Stocks, H. H. Joachim and E. W. Webster, Oxford, 1922-1923; text from the Internet Classics Archive (classics.mit.edu), distributed for educational use as it permits
+block	4
+
+book	aristotle-parts-motion-animals
+title	On the Parts and the Motion of Animals
+subtitle	Aristotle
+category	Science
+edition	Aristotle, On the Parts and the Motion of Animals; translated by William Ogle (1882) and A. S. L. Farquharson (1912) (The Internet Classics Archive, classics.mit.edu)
+credit	translated by William Ogle (1882) and A. S. L. Farquharson (1912); text from the Internet Classics Archive (classics.mit.edu), distributed for educational use as it permits
+block	4
+
+book	aristotle-parva-naturalia
+title	Parva Naturalia
+subtitle	Aristotle
+category	Science
+edition	Aristotle, Parva Naturalia; translated by J. I. Beare and G. R. T. Ross, Oxford, 1908 (The Internet Classics Archive, classics.mit.edu)
+credit	translated by J. I. Beare and G. R. T. Ross, Oxford, 1908; text from the Internet Classics Archive (classics.mit.edu), distributed for educational use as it permits
+block	4
+
+book	aristotle-physics
+title	Physics
+subtitle	Aristotle
+category	Science
+edition	Aristotle, Physics; translated by R. P. Hardie and R. K. Gaye, Oxford, 1930 (The Internet Classics Archive, classics.mit.edu)
+credit	translated by R. P. Hardie and R. K. Gaye, Oxford, 1930; text from the Internet Classics Archive (classics.mit.edu), distributed for educational use as it permits
+block	4
 
 book	aristotle-history-animals
 title	History of Animals
@@ -2243,6 +2345,56 @@ subtitle	Vitruvius
 category	Science
 edition	Vitruvius, The Ten Books on Architecture (-15); Morgan translation 1914, Gutenberg
 block	2
+
+book	aretaeus-works
+title	The Extant Works
+subtitle	Aretaeus of Cappadocia
+category	Science
+edition	Aretaeus of Cappadocia, The Extant Works; translated by Francis Adams, 1856 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Francis Adams, 1856
+block	4
+
+book	columella-agriculture
+title	On Agriculture, Books 1 to 9
+subtitle	Columella
+category	Science
+edition	Columella, On Agriculture; translated by Harrison Boyd Ash, E. S. Forster and Edward H. Heffner, Loeb Classical Library, 1941-1955 (Books 1 to 9) (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Harrison Boyd Ash, E. S. Forster and Edward H. Heffner, Loeb Classical Library, 1941-1955 (Books 1 to 9)
+block	4
+
+book	euclid-elements-heath
+title	The Elements
+subtitle	Euclid
+category	Science
+edition	Euclid, The Elements; translated by Thomas L. Heath, Cambridge University Press, 1908 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Thomas L. Heath, Cambridge University Press, 1908
+block	4
+
+book	galen-natural-faculties
+title	On the Natural Faculties
+subtitle	Galen
+category	Science
+edition	Galen, On the Natural Faculties; translated by Arthur John Brock, Loeb Classical Library, 1916 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Arthur John Brock, Loeb Classical Library, 1916
+block	4
+
+book	hippocrates-genuine-works-volume-2
+title	The Genuine Works, Volume 2
+subtitle	Hippocrates
+category	Science
+edition	Hippocrates, The Genuine Works, Volume 2; translated by Francis Adams, 1849 (Nutriment and Precepts by W. H. S. Jones, Loeb Classical Library, 1923) (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Francis Adams, 1849 (Nutriment and Precepts by W. H. S. Jones, Loeb Classical Library, 1923)
+block	4
 
 book	aesop-fables
 title	Fables
@@ -4916,6 +5068,56 @@ subtitle	Oscar Wilde
 category	Poetry
 edition	Oscar Wilde, Poetry (incl. The Ballad of Reading Gaol) (1881); Standard Ebooks edition (CC0)
 block	1
+
+book	ausonius-works
+title	Works
+subtitle	Ausonius
+category	Poetry
+edition	Ausonius, Works; translated by Hugh G. Evelyn-White, Loeb Classical Library, 1921 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Hugh G. Evelyn-White, Loeb Classical Library, 1921
+block	4
+
+book	bacchylides-poems
+title	Poems and Fragments
+subtitle	Bacchylides
+category	Poetry
+edition	Bacchylides, Poems and Fragments; translated by Diane Arnson Svarlien, 1996 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Diane Arnson Svarlien, 1996
+block	4
+
+book	claudian-works
+title	Works
+subtitle	Claudian
+category	Poetry
+edition	Claudian, Works; translated by Maurice Platnauer, Loeb Classical Library, 1922 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Maurice Platnauer, Loeb Classical Library, 1922
+block	4
+
+book	ovid-heroides
+title	The Heroides
+subtitle	Ovid
+category	Poetry
+edition	Ovid, The Heroides; The Epistles of Ovid, London, 1813 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: The Epistles of Ovid, London, 1813
+block	4
+
+book	phaedrus-fables
+title	Fables
+subtitle	Phaedrus
+category	Poetry
+edition	Phaedrus, Fables; translated by Christopher Smart (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Christopher Smart
+block	4
 
 book	the-aesop-for-children
 title	The Aesop for Children
