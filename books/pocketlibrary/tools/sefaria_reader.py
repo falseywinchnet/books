@@ -15,9 +15,10 @@ A file's `text` is nested lists, as deep as its `sectionNames` say:
 
 Sefaria's English carries a little HTML: <b> and <strong> (in the Talmud, the bold is
 the translation and the plain the Steinsaltz explanation), <i>, <small>, <u>, <br>
-(a new line), <span> (its text kept), <img> (dropped, counted), and footnotes, a
+(a new line), <span> and <a> (their text kept), <img> (dropped, counted), and footnotes, a
 <sup class="footnote-marker"> followed by an <i class="footnote">. Anything else in
-angle brackets (the Midrash Rabbah's <Variant reading: ...>) is text.
+angle brackets (the Midrash Rabbah's <Variant reading: ...>) is text. Hebrew is given in
+Latin letters, in italic (lexicon_reader.hebrew_in_latin): the library's faces have none.
 """
 
 import html.parser
@@ -25,8 +26,28 @@ import json
 import re
 import typing
 
-KNOWN_TAGS = ("b", "strong", "i", "em", "small", "u", "br", "span", "sup", "sub", "img", "big")
+import lexicon_reader
+
+KNOWN_TAGS = ("b", "strong", "i", "em", "small", "u", "br", "span", "sup", "sub", "img", "big", "a")
+# A run of Hebrew (letters, points, cantillation, maqaf), with the spaces and gershayim
+# inside it: the library's faces have no Hebrew, so it is given in Latin letters.
+HEBREW = re.compile(r"[\u0591-\u05f4\ufb1d-\ufb4f]+(?:[\s\"'\u05be-][\u0591-\u05f4\ufb1d-\ufb4f]+)*")
 NOT_A_TAG = re.compile(r"<(?!/?(?:%s)\b)" % "|".join(KNOWN_TAGS), re.I)
+
+
+LETTER_NAMES = dict(zip("אבגדהוזחטיכךלמםנןסעפףצץקרשת",
+                        ["aleph", "bet", "gimel", "dalet", "he", "vav", "zayin", "het", "tet", "yod", "kaf", "kaf",
+                         "lamed", "mem", "mem", "nun", "nun", "samekh", "ayin", "pe", "pe", "tsade", "tsade", "qof",
+                         "resh", "shin", "tav"]))
+
+
+def latin(word: str) -> str:
+    """A Hebrew word in Latin letters; a letter standing alone (as a grammarian names one)
+    by its name."""
+    letters = [char for char in word if char in LETTER_NAMES]
+    if len(letters) == 1:
+        return LETTER_NAMES[letters[0]]
+    return lexicon_reader.hebrew_in_latin(word)
 
 
 class Inline(html.parser.HTMLParser):
@@ -98,8 +119,24 @@ class Inline(html.parser.HTMLParser):
         data = data.replace("\n", " ").replace("\t", " ")
         if self.marker:
             self.label += data
-        else:
-            self.book.text(data)
+            return
+        at = 0
+        for match in HEBREW.finditer(data):
+            self.book.text(data[at:match.start()])
+            words = [latin(word) for word in re.split(r"[\s\u05be]+", match.group(0))]
+            if not any(words):
+                at = match.end()
+                continue
+            # In italic already (a quotation, a title), it stays so; a span is not opened twice.
+            italic = "italic" not in self.stack
+            if italic:
+                self.book.add("Y", "italic", "1")
+            self.book.text(" ".join(word for word in words if word))
+            if italic:
+                self.book.add("Y", "italic", "0")
+            self.book.head_counts["Hebrew given in Latin letters (the library's faces have no Hebrew)"] += 1
+            at = match.end()
+        self.book.text(data[at:])
 
     def finish(self) -> None:
         self.close()

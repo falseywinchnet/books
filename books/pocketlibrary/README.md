@@ -24,14 +24,19 @@ they left.
 
 ## Replayability
 
-A library is read, not replayed. Every book keeps its own place. The shelves hold 472
+A library is read, not replayed. Every book keeps its own place. The shelves hold 725
 books on fourteen planks: Scripture, Rabbinic writings, Church Fathers and Reference (our
 own importers, `tools/import_books.py`, `sefaria_reader.py`, `lexicon_reader.py` and
 `usfm_reader.py`), Philosophy, History, Society and Science, and the novels, plays,
 poems and children's books. Batches 1 (336 books) and 2 (111, non-fiction and the Greek
 and Latin classics) were found and checked by workers, pinned in
-`tools/sources.lock.json` and catalogued by `tools/add_batch.py`. Books that need
-figures or mathematics wait for the reader to print them.
+`tools/sources.lock.json` and catalogued by `tools/add_batch.py`. Batch 3 (253: the
+Greek and Roman authors, the Nicene and Post-Nicene Fathers, the Jerusalem Talmud, the
+Mishneh Torah, Josephus, the Shinto chronicles and the owner's named works) was chosen
+from a list of candidates and catalogued by `tools/add_selection.py`, the books coded as
+block 3; Perseus' TEI is read by `perseus_reader.py`. The mathematical books (Euclid,
+Newton's Principia and Opticks, Proclus on Euclid) are read as text; their figures wait
+for the reader to print them.
 
 The books ship in parts (`src/container.hpp`): a base and blocks of books coded against
 it, listed in `assets/books/parts.txt` and pinned in `pinned_assets.json`. The parts are

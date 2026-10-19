@@ -30,6 +30,62 @@ category	Scripture
 edition	Anonymous, The Book of Enoch (-200); SPCK 1917, intro by W. O. E. Oesterley, Gutenberg
 block	2
 
+book	josephus-antiquities-jews
+title	Antiquities of the Jews
+subtitle	Flavius Josephus
+category	Scripture
+edition	Flavius Josephus, Antiquities of the Jews; Whiston 1737
+block	3
+
+book	josephus-wars-jews
+title	The Wars of the Jews
+subtitle	Flavius Josephus
+category	Scripture
+edition	Flavius Josephus, The Wars of the Jews; Whiston 1737
+block	3
+
+book	josephus-against-apion
+title	Against Apion
+subtitle	Flavius Josephus
+category	Scripture
+edition	Flavius Josephus, Against Apion; Whiston 1737
+block	3
+
+book	josephus-life
+title	The Life of Josephus
+subtitle	Flavius Josephus
+category	Scripture
+edition	Flavius Josephus, The Life of Josephus; Whiston 1737
+block	3
+
+book	josephus-discourse-greeks-concerning-hades
+title	Discourse to the Greeks concerning Hades
+subtitle	Flavius Josephus
+category	Scripture
+edition	Flavius Josephus, Discourse to the Greeks concerning Hades; Whiston 1737
+block	3
+
+book	philo-works
+title	The Works of Philo
+subtitle	Philo of Alexandria
+category	Scripture
+edition	Philo of Alexandria, The Works of Philo; C. D. Yonge 1854-55
+block	3
+
+book	kojiki
+title	Kojiki
+subtitle	Ō no Yasumaro
+category	Scripture
+edition	Ō no Yasumaro, Kojiki; Basil Hall Chamberlain 1882
+block	3
+
+book	nihongi
+title	Nihongi
+subtitle	Prince Toneri
+category	Scripture
+edition	Prince Toneri, Nihongi; W. G. Aston 1896
+block	3
+
 book	mishnah
 title	THE MISHNAH
 subtitle	Mishnah Yomit · Joshua Kulp
@@ -188,6 +244,196 @@ licence_url	https://www.sefaria.org/api/texts/versions/Sforno_on_Genesis
 credit	Translated by Eliyahu Munk (HaChut Hameshulash), via Sefaria.
 block	2
 
+book	yerushalmi-zeraim
+title	JERUSALEM TALMUD · ZERAIM
+subtitle	Heinrich W. Guggenheimer
+category	Rabbinic writings
+edition	The Jerusalem Talmud, translation and commentary by Heinrich W. Guggenheimer, Berlin, De Gruyter, 1999-2015 (Sefaria)
+licence	CC BY 4.0
+licence_url	https://creativecommons.org/licenses/by/4.0/
+credit	Heinrich W. Guggenheimer, The Jerusalem Talmud, De Gruyter, via Sefaria
+block	3
+
+book	yerushalmi-moed
+title	JERUSALEM TALMUD · MOED
+subtitle	Heinrich W. Guggenheimer
+category	Rabbinic writings
+edition	The Jerusalem Talmud, translation and commentary by Heinrich W. Guggenheimer, Berlin, De Gruyter, 1999-2015 (Sefaria)
+licence	CC BY 4.0
+licence_url	https://creativecommons.org/licenses/by/4.0/
+credit	Heinrich W. Guggenheimer, The Jerusalem Talmud, De Gruyter, via Sefaria
+block	3
+
+book	yerushalmi-nashim
+title	JERUSALEM TALMUD · NASHIM
+subtitle	Heinrich W. Guggenheimer
+category	Rabbinic writings
+edition	The Jerusalem Talmud, translation and commentary by Heinrich W. Guggenheimer, Berlin, De Gruyter, 1999-2015 (Sefaria)
+licence	CC BY 4.0
+licence_url	https://creativecommons.org/licenses/by/4.0/
+credit	Heinrich W. Guggenheimer, The Jerusalem Talmud, De Gruyter, via Sefaria
+block	3
+
+book	yerushalmi-nezikin-niddah
+title	JERUSALEM TALMUD · NEZIKIN AND NIDDAH
+subtitle	Heinrich W. Guggenheimer
+category	Rabbinic writings
+edition	The Jerusalem Talmud, translation and commentary by Heinrich W. Guggenheimer, Berlin, De Gruyter, 1999-2015 (Sefaria)
+licence	CC BY 4.0
+licence_url	https://creativecommons.org/licenses/by/4.0/
+credit	Heinrich W. Guggenheimer, The Jerusalem Talmud, De Gruyter, via Sefaria
+block	3
+
+book	mishneh-torah-introduction
+title	MISHNEH TORAH · INTRODUCTION
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-madda
+title	MISHNEH TORAH · SEFER MADDA
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-ahavah
+title	MISHNEH TORAH · SEFER AHAVAH
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-zemanim
+title	MISHNEH TORAH · SEFER ZEMANIM
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-nashim
+title	MISHNEH TORAH · SEFER NASHIM
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-kedushah
+title	MISHNEH TORAH · SEFER KEDUSHAH
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-haflaah
+title	MISHNEH TORAH · SEFER HAFLAAH
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-zeraim
+title	MISHNEH TORAH · SEFER ZERAIM
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-avodah
+title	MISHNEH TORAH · SEFER AVODAH
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-korbanot
+title	MISHNEH TORAH · SEFER KORBANOT
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-taharah
+title	MISHNEH TORAH · SEFER TAHARAH
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-nezikim
+title	MISHNEH TORAH · SEFER NEZIKIM
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-kinyan
+title	MISHNEH TORAH · SEFER KINYAN
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-mishpatim
+title	MISHNEH TORAH · SEFER MISHPATIM
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
+book	mishneh-torah-shoftim
+title	MISHNEH TORAH · SEFER SHOFTIM
+subtitle	Maimonides · Eliyahu Touger
+category	Rabbinic writings
+edition	Mishneh Torah, translated by Eliyahu Touger, Jerusalem, Moznaim, c1986-c2007 (Sefaria)
+licence	CC BY-NC 4.0
+licence_url	https://creativecommons.org/licenses/by-nc/4.0/
+credit	Mishneh Torah, trans. Eliyahu Touger, Moznaim Publishing, via Sefaria
+block	3
+
 book	apostolic-fathers
 title	The Writings of the Apostolic Fathers
 subtitle	Clement of Rome; Ignatius; Polycarp; Hermas; and others
@@ -222,6 +468,209 @@ subtitle	Augustine of Hippo
 category	Church Fathers
 edition	Augustine of Hippo, The City of God (426); Standard Ebooks edition (CC0), Dods translation 1871
 block	2
+
+book	prudentius-hymns
+title	Hymns
+subtitle	Prudentius
+category	Church Fathers
+edition	Prudentius, Hymns; Pope tr. 1905, Latin-English
+block	3
+
+book	npnf1-01
+title	Augustine: Confessions and Letters
+subtitle	Nicene and Post-Nicene Fathers I.1
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.1, Augustine: Confessions and Letters; Schaff ed. 1886-90
+block	3
+
+book	npnf1-02
+title	Augustine: City of God; On Christian Doctrine
+subtitle	Nicene and Post-Nicene Fathers I.2
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.2, Augustine: City of God; On Christian Doctrine; Schaff ed. 1886-90
+block	3
+
+book	npnf1-03
+title	Augustine: On the Holy Trinity; Doctrinal Treatises; Moral Treatises
+subtitle	Nicene and Post-Nicene Fathers I.3
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.3, Augustine: On the Holy Trinity; Doctrinal Treatises; Moral Treatises; Schaff ed. 1886-90
+block	3
+
+book	npnf1-04
+title	Augustine: Writings against the Manichaeans and against the Donatists
+subtitle	Nicene and Post-Nicene Fathers I.4
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.4, Augustine: Writings against the Manichaeans and against the Donatists; Schaff ed. 1886-90
+block	3
+
+book	npnf1-05
+title	Augustine: Anti-Pelagian Writings
+subtitle	Nicene and Post-Nicene Fathers I.5
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.5, Augustine: Anti-Pelagian Writings; Schaff ed. 1886-90
+block	3
+
+book	npnf1-06
+title	Augustine: Sermon on the Mount; Harmony of the Gospels; Homilies on the Gospels
+subtitle	Nicene and Post-Nicene Fathers I.6
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.6, Augustine: Sermon on the Mount; Harmony of the Gospels; Homilies on the Gospels; Schaff ed. 1886-90
+block	3
+
+book	npnf1-07
+title	Augustine: Homilies on the Gospel of John; Homilies on the First Epistle of John; Soliloquies
+subtitle	Nicene and Post-Nicene Fathers I.7
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.7, Augustine: Homilies on the Gospel of John; Homilies on the First Epistle of John; Soliloquies; Schaff ed. 1886-90
+block	3
+
+book	npnf1-08
+title	Augustine: Expositions on the Book of Psalms
+subtitle	Nicene and Post-Nicene Fathers I.8
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.8, Augustine: Expositions on the Book of Psalms; Schaff ed. 1886-90
+block	3
+
+book	npnf1-09
+title	Chrysostom: On the Priesthood; Ascetic Treatises; Select Homilies and Letters; Homilies on the Statues
+subtitle	Nicene and Post-Nicene Fathers I.9
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.9, Chrysostom: On the Priesthood; Ascetic Treatises; Select Homilies and Letters; Homilies on the Statues; Schaff ed. 1886-90
+block	3
+
+book	npnf1-10
+title	Chrysostom: Homilies on the Gospel of Saint Matthew
+subtitle	Nicene and Post-Nicene Fathers I.10
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.10, Chrysostom: Homilies on the Gospel of Saint Matthew; Schaff ed. 1886-90
+block	3
+
+book	npnf1-11
+title	Chrysostom: Homilies on the Acts of the Apostles and the Epistle to the Romans
+subtitle	Nicene and Post-Nicene Fathers I.11
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.11, Chrysostom: Homilies on the Acts of the Apostles and the Epistle to the Romans; Schaff ed. 1886-90
+block	3
+
+book	npnf1-12
+title	Chrysostom: Homilies on the Epistles of Paul to the Corinthians
+subtitle	Nicene and Post-Nicene Fathers I.12
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.12, Chrysostom: Homilies on the Epistles of Paul to the Corinthians; Schaff ed. 1886-90
+block	3
+
+book	npnf1-13
+title	Chrysostom: Homilies on Galatians, Ephesians, Philippians, Colossians, Thessalonians, Timothy, Titus, Philemon
+subtitle	Nicene and Post-Nicene Fathers I.13
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.13, Chrysostom: Homilies on Galatians, Ephesians, Philippians, Colossians, Thessalonians, Timothy, Titus, Philemon; Schaff ed. 1886-90
+block	3
+
+book	npnf1-14
+title	Chrysostom: Homilies on the Gospel of St. John and the Epistle to the Hebrews
+subtitle	Nicene and Post-Nicene Fathers I.14
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers I.14, Chrysostom: Homilies on the Gospel of St. John and the Epistle to the Hebrews; Schaff ed. 1886-90
+block	3
+
+book	npnf2-01
+title	Eusebius: Church History; Life of Constantine; Oration in Praise of Constantine
+subtitle	Nicene and Post-Nicene Fathers II.1
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.1, Eusebius: Church History; Life of Constantine; Oration in Praise of Constantine; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-02
+title	Socrates and Sozomen: Ecclesiastical Histories
+subtitle	Nicene and Post-Nicene Fathers II.2
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.2, Socrates and Sozomen: Ecclesiastical Histories; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-03
+title	Theodoret, Jerome, Gennadius, Rufinus: Historical Writings
+subtitle	Nicene and Post-Nicene Fathers II.3
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.3, Theodoret, Jerome, Gennadius, Rufinus: Historical Writings; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-04
+title	Athanasius: Select Works and Letters
+subtitle	Nicene and Post-Nicene Fathers II.4
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.4, Athanasius: Select Works and Letters; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-05
+title	Gregory of Nyssa: Dogmatic Treatises, etc.
+subtitle	Nicene and Post-Nicene Fathers II.5
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.5, Gregory of Nyssa: Dogmatic Treatises, etc.; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-06
+title	Jerome: Principal Works
+subtitle	Nicene and Post-Nicene Fathers II.6
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.6, Jerome: Principal Works; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-07
+title	Cyril of Jerusalem: Catechetical Lectures; Gregory Nazianzen: Orations and Letters
+subtitle	Nicene and Post-Nicene Fathers II.7
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.7, Cyril of Jerusalem: Catechetical Lectures; Gregory Nazianzen: Orations and Letters; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-08
+title	Basil: Letters and Select Works
+subtitle	Nicene and Post-Nicene Fathers II.8
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.8, Basil: Letters and Select Works; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-09
+title	Hilary of Poitiers: On the Trinity; John of Damascus: Exposition of the Orthodox Faith
+subtitle	Nicene and Post-Nicene Fathers II.9
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.9, Hilary of Poitiers: On the Trinity; John of Damascus: Exposition of the Orthodox Faith; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-10
+title	Ambrose: Select Works and Letters
+subtitle	Nicene and Post-Nicene Fathers II.10
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.10, Ambrose: Select Works and Letters; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-11
+title	Sulpitius Severus, Vincent of Lerins, John Cassian
+subtitle	Nicene and Post-Nicene Fathers II.11
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.11, Sulpitius Severus, Vincent of Lerins, John Cassian; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-12
+title	Leo the Great; Gregory the Great
+subtitle	Nicene and Post-Nicene Fathers II.12
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.12, Leo the Great; Gregory the Great; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-13
+title	Gregory the Great; Ephraim Syrus; Aphrahat
+subtitle	Nicene and Post-Nicene Fathers II.13
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.13, Gregory the Great; Ephraim Syrus; Aphrahat; Schaff-Wace ed. 1890-1900
+block	3
+
+book	npnf2-14
+title	The Seven Ecumenical Councils
+subtitle	Nicene and Post-Nicene Fathers II.14
+category	Church Fathers
+edition	Nicene and Post-Nicene Fathers II.14, The Seven Ecumenical Councils; Schaff-Wace ed. 1890-1900
+block	3
 
 book	strongs-hebrew
 title	STRONG'S HEBREW
@@ -281,6 +730,55 @@ leather	1
 edition	G. Abbott-Smith, A Manual Greek Lexicon of the New Testament, Scribner's, 1922; TEI edition, translatable-exegetical-tools at 8c00cb2
 block	2
 
+book	athenaeus-deipnosophists-vol-1
+title	The Deipnosophists, vol. 1
+subtitle	Athenaeus
+category	Reference
+edition	Athenaeus, The Deipnosophists, vol. 1; C. D. Yonge 1854 (Bohn)
+block	3
+
+book	athenaeus-deipnosophists-vol-2
+title	The Deipnosophists, vol. 2
+subtitle	Athenaeus
+category	Reference
+edition	Athenaeus, The Deipnosophists, vol. 2; C. D. Yonge 1854 (Bohn)
+block	3
+
+book	athenaeus-deipnosophists-vol-3
+title	The Deipnosophists, vol. 3
+subtitle	Athenaeus
+category	Reference
+edition	Athenaeus, The Deipnosophists, vol. 3; C. D. Yonge 1854 (Bohn)
+block	3
+
+book	aston-shinto-way-gods
+title	Shinto: The Way of the Gods
+subtitle	W. G. Aston
+category	Reference
+edition	W. G. Aston, Shinto: The Way of the Gods; Aston
+block	3
+
+book	aston-shinto-ancient-religion-japan
+title	Shinto: The Ancient Religion of Japan
+subtitle	W. G. Aston
+category	Reference
+edition	W. G. Aston, Shinto: The Ancient Religion of Japan; Aston
+block	3
+
+book	buhler-indian-sect-jainas
+title	On the Indian Sect of the Jainas
+subtitle	Georg Bühler
+category	Reference
+edition	Georg Bühler, On the Indian Sect of the Jainas; Bühler, tr. Burgess
+block	3
+
+book	aquinas-summa-contra-gentiles
+title	Summa Contra Gentiles
+subtitle	Thomas Aquinas
+category	Philosophy
+edition	Thomas Aquinas, Summa Contra Gentiles; Joseph Rickaby 1905
+block	3
+
 book	summa-theologica-1
 title	Summa Theologica, Part I
 subtitle	Thomas Aquinas
@@ -288,12 +786,61 @@ category	Philosophy
 edition	Thomas Aquinas, Summa Theologica, Part I (Prima Pars) (1268); Complete American Edition, Benziger Brothers, Gutenberg (CCEL transcription)
 block	2
 
+book	aquinas-summa-theologica-i-ii
+title	Summa Theologica, I-II
+subtitle	Thomas Aquinas
+category	Philosophy
+edition	Thomas Aquinas, Summa Theologica, I-II; Fathers of the English Dominican Province 1911-25
+block	3
+
+book	aquinas-summa-theologica-ii-ii
+title	Summa Theologica, II-II
+subtitle	Thomas Aquinas
+category	Philosophy
+edition	Thomas Aquinas, Summa Theologica, II-II; English Dominicans
+block	3
+
+book	aquinas-summa-theologica-iii
+title	Summa Theologica, III
+subtitle	Thomas Aquinas
+category	Philosophy
+edition	Thomas Aquinas, Summa Theologica, III; English Dominicans
+block	3
+
+book	aristotle-eudemian-ethics-virtues-vices
+title	Eudemian Ethics; On Virtues and Vices
+subtitle	Aristotle
+category	Philosophy
+edition	Aristotle, Eudemian Ethics; On Virtues and Vices; J. Solomon 1915 (Oxford Translation vol. 9)
+block	3
+
+book	aristotle-metaphysics
+title	Metaphysics
+subtitle	Aristotle
+category	Philosophy
+edition	Aristotle, Metaphysics; W. D. Ross 1908 (Oxford Translation vol. 8)
+block	3
+
 book	nicomachean-ethics
 title	Nicomachean Ethics
 subtitle	Aristotle
 category	Philosophy
 edition	Aristotle, Nicomachean Ethics (-340); Standard Ebooks edition (CC0), Peters translation
 block	2
+
+book	aristotle-organon
+title	The Organon
+subtitle	Aristotle
+category	Philosophy
+edition	Aristotle, The Organon; O. F. Owen 1853 (Bohn)
+block	3
+
+book	aristotle-rhetoric
+title	Rhetoric
+subtitle	Aristotle
+category	Philosophy
+edition	Aristotle, Rhetoric; J. H. Freese 1926 (Loeb)
+block	3
 
 book	aristotle-poetics
 title	Poetics
@@ -330,6 +877,13 @@ category	Philosophy
 edition	Boethius, The Consolation of Philosophy (524); Standard Ebooks edition (CC0), James translation 1897
 block	2
 
+book	julian-arguments-against-christians
+title	Arguments against the Christians
+subtitle	Celsus, Porphyry and Julian
+category	Philosophy
+edition	Celsus, Porphyry and Julian, Arguments against the Christians; Thomas Taylor 1830
+block	3
+
 book	orthodoxy
 title	Orthodoxy
 subtitle	G. K. Chesterton
@@ -344,12 +898,33 @@ category	Philosophy
 edition	G. K. Chesterton, The Everlasting Man (1925); Standard Ebooks edition (CC0)
 block	1
 
+book	cicero-academic-questions-de-finibus-tusculans
+title	Academic Questions; De Finibus; Tusculans
+subtitle	Cicero
+category	Philosophy
+edition	Cicero, Academic Questions; De Finibus; Tusculans; C. D. Yonge 1853
+block	3
+
+book	cicero-nature-gods-commonwealth
+title	On the Nature of the Gods; On the Commonwealth
+subtitle	Cicero
+category	Philosophy
+edition	Cicero, On the Nature of the Gods; On the Commonwealth; C. D. Yonge 1877
+block	3
+
 book	tusculan-disputations
 title	Tusculan Disputations
 subtitle	Cicero
 category	Philosophy
 edition	Cicero, Tusculan Disputations (-45); Standard Ebooks edition (CC0), Yonge translation
 block	2
+
+book	cicero-friendship-old-age
+title	On Friendship and On Old Age
+subtitle	Cicero
+category	Philosophy
+edition	Cicero, On Friendship and On Old Age; E. S. Shuckburgh
+block	3
 
 book	analects
 title	Analects
@@ -393,6 +968,13 @@ category	Philosophy
 edition	Epictetus, Short Works (The Enchiridion and Fragments) (125); Standard Ebooks edition (CC0), Long translation
 block	2
 
+book	epicurus-letter-menoeceus
+title	Letter to Menoeceus
+subtitle	Epicurus
+category	Philosophy
+edition	Epicurus, Letter to Menoeceus; R. D. Hicks 1925
+block	3
+
 book	praise-of-folly
 title	The Praise of Folly
 subtitle	Desiderius Erasmus
@@ -400,12 +982,40 @@ category	Philosophy
 edition	Desiderius Erasmus, The Praise of Folly (1511); Wilson translation 1668, Gutenberg
 block	2
 
+book	hegel-logic
+title	The Logic
+subtitle	G. W. F. Hegel
+category	Philosophy
+edition	G. W. F. Hegel, The Logic; William Wallace 1892
+block	3
+
+book	hume-treatise-human-nature
+title	A Treatise of Human Nature
+subtitle	David Hume
+category	Philosophy
+edition	David Hume, A Treatise of Human Nature; 
+block	3
+
 book	hume-enquiry
 title	An Enquiry Concerning Human Understanding
 subtitle	David Hume
 category	Philosophy
 edition	David Hume, An Enquiry Concerning Human Understanding (1748); Standard Ebooks edition (CC0)
 block	2
+
+book	iamblichus-life-pythagoras
+title	The Life of Pythagoras
+subtitle	Iamblichus
+category	Philosophy
+edition	Iamblichus, The Life of Pythagoras; Thomas Taylor 1818
+block	3
+
+book	iamblichus-mysteries
+title	On the Mysteries
+subtitle	Iamblichus
+category	Philosophy
+edition	Iamblichus, On the Mysteries; Thomas Taylor 1821
+block	3
 
 book	varieties-of-religious-experience
 title	The Varieties of Religious Experience
@@ -420,6 +1030,20 @@ subtitle	William James
 category	Philosophy
 edition	William James, Pragmatism (1907); Standard Ebooks edition (CC0)
 block	2
+
+book	julian-works-volume-1
+title	Works, Volume 1
+subtitle	The Emperor Julian
+category	Philosophy
+edition	The Emperor Julian, Works, Volume 1; Wilmer Cave Wright 1913 (Loeb)
+block	3
+
+book	julian-works-volume-2
+title	Works, Volume 2
+subtitle	The Emperor Julian
+category	Philosophy
+edition	The Emperor Julian, Works, Volume 2; Wilmer Cave Wright 1913 (Loeb)
+block	3
 
 book	critique-of-pure-reason
 title	The Critique of Pure Reason
@@ -448,6 +1072,13 @@ subtitle	John Locke
 category	Philosophy
 edition	John Locke, An Essay Concerning Humane Understanding, Volume 2 (Books 3 and 4) (1689); based on the 2nd edition (1694), Gutenberg
 block	2
+
+book	ocellus-nature-universe
+title	On the Nature of the Universe
+subtitle	Ocellus Lucanus
+category	Philosophy
+edition	Ocellus Lucanus, On the Nature of the Universe; Thomas Taylor 1831
+block	3
 
 book	system-of-logic
 title	A System of Logic, Ratiocinative and Inductive
@@ -540,6 +1171,104 @@ category	Philosophy
 edition	Plato, Dialogues (-380); Standard Ebooks edition (CC0), Jowett translation
 block	2
 
+book	plotinus-enneads-i
+title	Enneads I
+subtitle	Plotinus
+category	Philosophy
+edition	Plotinus, Enneads I; Stephen MacKenna 1917
+block	3
+
+book	plotinus-enneads-ii-iii
+title	Enneads II and III
+subtitle	Plotinus
+category	Philosophy
+edition	Plotinus, Enneads II and III; Stephen MacKenna 1921
+block	3
+
+book	plotinus-enneads-iv
+title	Enneads IV
+subtitle	Plotinus
+category	Philosophy
+edition	Plotinus, Enneads IV; Stephen MacKenna 1924
+block	3
+
+book	plotinus-enneads-v
+title	Enneads V
+subtitle	Plotinus
+category	Philosophy
+edition	Plotinus, Enneads V; Stephen MacKenna 1926
+block	3
+
+book	plotinus-enneads-vi
+title	Enneads VI
+subtitle	Plotinus
+category	Philosophy
+edition	Plotinus, Enneads VI; MacKenna & B. S. Page 1930
+block	3
+
+book	plutarch-moralia-vol-1
+title	Moralia, vol. 1
+subtitle	Plutarch
+category	Philosophy
+edition	Plutarch, Moralia, vol. 1; Goodwin ed. 1878 (17th-c. "several hands" revised)
+block	3
+
+book	plutarch-moralia-vol-2
+title	Moralia, vol. 2
+subtitle	Plutarch
+category	Philosophy
+edition	Plutarch, Moralia, vol. 2; Goodwin ed. 1878
+block	3
+
+book	plutarch-moralia-vol-3
+title	Moralia, vol. 3
+subtitle	Plutarch
+category	Philosophy
+edition	Plutarch, Moralia, vol. 3; Goodwin ed. 1878
+block	3
+
+book	plutarch-moralia-vol-4
+title	Moralia, vol. 4
+subtitle	Plutarch
+category	Philosophy
+edition	Plutarch, Moralia, vol. 4; Goodwin ed. 1878
+block	3
+
+book	plutarch-moralia-vol-5
+title	Moralia, vol. 5
+subtitle	Plutarch
+category	Philosophy
+edition	Plutarch, Moralia, vol. 5; Goodwin ed. 1878
+block	3
+
+book	porphyry-select-works
+title	Select Works
+subtitle	Porphyry
+category	Philosophy
+edition	Porphyry, Select Works; Thomas Taylor 1823
+block	3
+
+book	proclus-theology-plato-volume-1
+title	The Theology of Plato, Volume 1
+subtitle	Proclus
+category	Philosophy
+edition	Proclus, The Theology of Plato, Volume 1; Thomas Taylor 1816
+block	3
+
+book	proclus-theology-plato-volume-2
+title	The Theology of Plato, Volume 2
+subtitle	Proclus
+category	Philosophy
+edition	Proclus, The Theology of Plato, Volume 2; Thomas Taylor 1816
+block	3
+
+book	pythagoras-golden-verses
+title	The Golden Verses
+subtitle	Pythagoras
+category	Philosophy
+edition	Pythagoras, The Golden Verses; N. L. Redfield 1917
+block	3
+
 book	problems-of-philosophy
 title	The Problems of Philosophy
 subtitle	Bertrand Russell
@@ -554,6 +1283,13 @@ category	Philosophy
 edition	Bertrand Russell, The Conquest of Happiness (1930); Allen & Unwin / Liveright 1930, Gutenberg
 block	2
 
+book	sallustius-gods-world
+title	On the Gods and the World
+subtitle	Sallustius
+category	Philosophy
+edition	Sallustius, On the Gods and the World; Gilbert Murray 1925 (appendix to Five Stages)
+block	3
+
 book	world-as-will-1
 title	The World as Will and Idea, Volume 1
 subtitle	Arthur Schopenhauer
@@ -561,12 +1297,33 @@ category	Philosophy
 edition	Arthur Schopenhauer, The World as Will and Idea, Volume 1 (1818); Haldane & Kemp translation, Gutenberg
 block	2
 
+book	seneca-moral-letters-lucilius
+title	Moral Letters to Lucilius
+subtitle	Seneca
+category	Philosophy
+edition	Seneca, Moral Letters to Lucilius; 
+block	3
+
 book	seneca-dialogues
 title	Dialogues
 subtitle	Seneca
 category	Philosophy
 edition	Seneca, Dialogues (49); Standard Ebooks edition (CC0), Stewart translation 1889
 block	2
+
+book	seneca-minor-dialogues
+title	Minor Dialogues
+subtitle	Seneca
+category	Philosophy
+edition	Seneca, Minor Dialogues; Aubrey Stewart 1889
+block	3
+
+book	seneca-benefits
+title	On Benefits
+subtitle	Seneca
+category	Philosophy
+edition	Seneca, On Benefits; Aubrey Stewart 1887
+block	3
 
 book	bhagavad-gita
 title	The Song Celestial, or Bhagavad-Gita
@@ -581,6 +1338,13 @@ subtitle	Benedict de Spinoza
 category	Philosophy
 edition	Benedict de Spinoza, Ethics (1677); Elwes translation 1883, Gutenberg
 block	2
+
+book	theophrastus-characters
+title	The Characters
+subtitle	Theophrastus
+category	Philosophy
+edition	Theophrastus, The Characters; Charles E. Bennett & William A. Hammond 1902
+block	3
 
 book	walden
 title	Walden
@@ -603,6 +1367,110 @@ category	Philosophy
 edition	Alfred North Whitehead, Science and the Modern World (1925); Macmillan 1925, Gutenberg
 block	2
 
+book	xenophon-apology
+title	The Apology
+subtitle	Xenophon
+category	Philosophy
+edition	Xenophon, The Apology; H. G. Dakyns
+block	3
+
+book	xenophon-symposium
+title	The Symposium
+subtitle	Xenophon
+category	Philosophy
+edition	Xenophon, The Symposium; H. G. Dakyns
+block	3
+
+book	cicero-on-divination
+title	On Divination
+subtitle	Cicero
+category	Philosophy
+edition	Cicero, On Divination; translated by William Armistead Falconer, Loeb Classical Library, 1923 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by William Armistead Falconer, Loeb Classical Library, 1923
+block	3
+
+book	cicero-on-duties
+title	On Duties
+subtitle	Cicero
+category	Philosophy
+edition	Cicero, On Duties; translated by Walter Miller, Loeb Classical Library, 1913 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Walter Miller, Loeb Classical Library, 1913
+block	3
+
+book	arrian-anabasis-alexander
+title	The Anabasis of Alexander
+subtitle	Arrian
+category	History
+edition	Arrian, The Anabasis of Alexander; E. J. Chinnock 1884
+block	3
+
+book	caesar-commentaries-gallic-civil-wars
+title	Commentaries on the Gallic and Civil Wars
+subtitle	Julius Caesar
+category	History
+edition	Julius Caesar, Commentaries on the Gallic and Civil Wars; W. A. McDevitte & W. S. Bohn 1869
+block	3
+
+book	cassiodorus-letters
+title	The Letters of Cassiodorus
+subtitle	Cassiodorus
+category	History
+edition	Cassiodorus, The Letters of Cassiodorus; Thomas Hodgkin 1886
+block	3
+
+book	dio-roman-history-vol-1
+title	Roman History, vol. 1
+subtitle	Cassius Dio
+category	History
+edition	Cassius Dio, Roman History, vol. 1; Herbert Baldwin Foster 1905
+block	3
+
+book	dio-roman-history-vol-2
+title	Roman History, vol. 2
+subtitle	Cassius Dio
+category	History
+edition	Cassius Dio, Roman History, vol. 2; Herbert Baldwin Foster 1905
+block	3
+
+book	dio-roman-history-vol-3
+title	Roman History, vol. 3
+subtitle	Cassius Dio
+category	History
+edition	Cassius Dio, Roman History, vol. 3; Herbert Baldwin Foster 1905
+block	3
+
+book	dio-roman-history-vol-4
+title	Roman History, vol. 4
+subtitle	Cassius Dio
+category	History
+edition	Cassius Dio, Roman History, vol. 4; Herbert Baldwin Foster 1905
+block	3
+
+book	dio-roman-history-vol-5
+title	Roman History, vol. 5
+subtitle	Cassius Dio
+category	History
+edition	Cassius Dio, Roman History, vol. 5; Herbert Baldwin Foster 1905
+block	3
+
+book	dio-roman-history-vol-6
+title	Roman History, vol. 6
+subtitle	Cassius Dio
+category	History
+edition	Cassius Dio, Roman History, vol. 6; Herbert Baldwin Foster 1905
+block	3
+
+book	eutropius-abridgement-roman-history
+title	Abridgement of Roman History
+subtitle	Eutropius
+category	History
+edition	Eutropius, Abridgement of Roman History; J. S. Watson 1853 (Bohn)
+block	3
+
 book	franklin-autobiography
 title	The Autobiography of Benjamin Franklin
 subtitle	Benjamin Franklin
@@ -617,12 +1485,26 @@ category	History
 edition	Edward Gibbon, The History of the Decline and Fall of the Roman Empire (1776); Standard Ebooks edition (CC0), all six volumes in one
 block	2
 
+book	goethe-italian-journey
+title	Italian Journey
+subtitle	Johann Wolfgang von Goethe
+category	History
+edition	Johann Wolfgang von Goethe, Italian Journey; A. J. W. Morrison 1849 (Bohn)
+block	3
+
 book	herodotus-histories
 title	Histories
 subtitle	Herodotus
 category	History
 edition	Herodotus, Histories (-430); Standard Ebooks edition (CC0), Macaulay translation 1890
 block	2
+
+book	jordanes-origin-deeds-goths
+title	The Origin and Deeds of the Goths
+subtitle	Jordanes
+category	History
+edition	Jordanes, The Origin and Deeds of the Goths; Charles C. Mierow 1908/1915
+block	3
 
 book	livy-1
 title	The History of Rome, Books 1 to 8
@@ -631,12 +1513,117 @@ category	History
 edition	Livy, The History of Rome, Books 1 to 8 (-27); Bohn's Classical Library (1849), Spillan translation, Gutenberg
 block	2
 
+book	livy-history-rome-books-27-36
+title	The History of Rome, Books 27 to 36
+subtitle	Livy
+category	History
+edition	Livy, The History of Rome, Books 27 to 36; Cyrus Edmonds 1850 (Bohn)
+block	3
+
+book	livy-history-rome-books-37-end
+title	The History of Rome, Books 37 to the End
+subtitle	Livy
+category	History
+edition	Livy, The History of Rome, Books 37 to the End; W. A. McDevitte 1850 (Bohn)
+block	3
+
+book	livy-history-rome-books-9-26
+title	The History of Rome, Books 9 to 26
+subtitle	Livy
+category	History
+edition	Livy, The History of Rome, Books 9 to 26; D. Spillan & C. Edmonds 1850 (Bohn)
+block	3
+
+book	ammianus-roman-history
+title	Roman History
+subtitle	Ammianus Marcellinus
+category	History
+edition	Ammianus Marcellinus, Roman History; C. D. Yonge 1862 (Bohn)
+block	3
+
+book	pausanias-description-greece-volume-1
+title	Description of Greece, Volume 1
+subtitle	Pausanias
+category	History
+edition	Pausanias, Description of Greece, Volume 1; A. R. Shilleto 1886
+block	3
+
+book	pausanias-description-greece-volume-2
+title	Description of Greece, Volume 2
+subtitle	Pausanias
+category	History
+edition	Pausanias, Description of Greece, Volume 2; A. R. Shilleto 1886
+block	3
+
 book	plutarch-lives
 title	Lives of the Noble Grecians and Romans
 subtitle	Plutarch
 category	History
 edition	Plutarch, Lives of the Noble Grecians and Romans (100); Dryden translation, revised by A. H. Clough, Gutenberg
 block	2
+
+book	polybius-histories-vol-1
+title	The Histories, vol. 1
+subtitle	Polybius
+category	History
+edition	Polybius, The Histories, vol. 1; Evelyn S. Shuckburgh 1889
+block	3
+
+book	polybius-histories-vol-2
+title	The Histories, vol. 2
+subtitle	Polybius
+category	History
+edition	Polybius, The Histories, vol. 2; Evelyn S. Shuckburgh 1889
+block	3
+
+book	procopius-secret-history
+title	The Secret History
+subtitle	Procopius
+category	History
+edition	Procopius, The Secret History; 
+block	3
+
+book	procopius-gothic-war
+title	The Gothic War
+subtitle	Procopius
+category	History
+edition	Procopius, The Gothic War; H. B. Dewing 1919 (Loeb)
+block	3
+
+book	procopius-persian-war
+title	The Persian War
+subtitle	Procopius
+category	History
+edition	Procopius, The Persian War; H. B. Dewing 1914 (Loeb)
+block	3
+
+book	procopius-vandalic-war
+title	The Vandalic War
+subtitle	Procopius
+category	History
+edition	Procopius, The Vandalic War; H. B. Dewing 1916 (Loeb)
+block	3
+
+book	procopius-buildings-justinian
+title	Of the Buildings of Justinian
+subtitle	Procopius
+category	History
+edition	Procopius, Of the Buildings of Justinian; Aubrey Stewart 1886 (Palestine Pilgrims' Text Society)
+block	3
+
+book	sallust-catiline-jugurthine-war
+title	Catiline and the Jugurthine War
+subtitle	Sallust
+category	History
+edition	Sallust, Catiline and the Jugurthine War; J. S. Watson 1867
+block	3
+
+book	suetonius-lives-caesars
+title	The Lives of the Caesars
+subtitle	Suetonius
+category	History
+edition	Suetonius, The Lives of the Caesars; 
+block	3
 
 book	tacitus-germany-agricola
 title	The Germany and the Agricola
@@ -651,6 +1638,13 @@ subtitle	Tacitus
 category	History
 edition	Tacitus, The Histories (105); Fyfe translation 1912, Gutenberg
 block	2
+
+book	tacitus-annals
+title	The Annals
+subtitle	Tacitus
+category	History
+edition	Tacitus, The Annals; Church & Brodribb 1876
+block	3
 
 book	thucydides
 title	History of the Peloponnesian War
@@ -673,12 +1667,67 @@ category	History
 edition	Xenophon, Anabasis (-370); Dakyns translation, Gutenberg
 block	2
 
+book	xenophon-cyropaedia
+title	Cyropaedia
+subtitle	Xenophon
+category	History
+edition	Xenophon, Cyropaedia; H. G. Dakyns 1897
+block	3
+
+book	xenophon-agesilaus
+title	Agesilaus
+subtitle	Xenophon
+category	History
+edition	Xenophon, Agesilaus; H. G. Dakyns
+block	3
+
+book	xenophon-hellenica
+title	Hellenica
+subtitle	Xenophon
+category	History
+edition	Xenophon, Hellenica; H. G. Dakyns 1892
+block	3
+
+book	pliny-younger-letters
+title	Letters
+subtitle	Pliny the Younger
+category	History
+edition	Pliny the Younger, Letters; William Melmoth 1746, rev. Bosanquet
+block	3
+
+book	appian-roman-history
+title	The Roman History
+subtitle	Appian
+category	History
+edition	Appian, The Roman History; translated by Horace White, The Macmillan Company, 1899 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Horace White, The Macmillan Company, 1899
+block	3
+
+book	cicero-letters
+title	Letters
+subtitle	Cicero
+category	History
+edition	Cicero, Letters; translated by Evelyn S. Shuckburgh, George Bell and Sons, 1908-1909 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Evelyn S. Shuckburgh, George Bell and Sons, 1908-1909
+block	3
+
 book	aristotle-politics
 title	Politics: A Treatise on Government
 subtitle	Aristotle
 category	Society
 edition	Aristotle, Politics: A Treatise on Government (-350); Ellis translation (1776; Everyman 1912), Gutenberg
 block	2
+
+book	aristotle-athenian-constitution
+title	The Athenian Constitution
+subtitle	Aristotle
+category	Society
+edition	Aristotle, The Athenian Constitution; Frederic G. Kenyon
+block	3
 
 book	souls-of-black-folk
 title	The Souls of Black Folk
@@ -694,12 +1743,40 @@ category	Society
 edition	Edmund Burke, Reflections on the Revolution in France (1790); Standard Ebooks edition (CC0)
 block	2
 
+book	cicero-republic
+title	The Republic
+subtitle	Cicero
+category	Society
+edition	Cicero, The Republic; G. W. Featherstonhaugh 1829
+block	3
+
+book	cicero-brutus-orator
+title	Brutus; Orator
+subtitle	Cicero
+category	Society
+edition	Cicero, Brutus; Orator; E. Jones 1776
+block	3
+
 book	on-war
 title	On War
 subtitle	Carl von Clausewitz
 category	Society
 edition	Carl von Clausewitz, On War (1832); Graham translation, Gutenberg
 block	2
+
+book	demosthenes-public-orations-volume-1
+title	Public Orations, Volume 1
+subtitle	Demosthenes
+category	Society
+edition	Demosthenes, Public Orations, Volume 1; A. W. Pickard-Cambridge 1912
+block	3
+
+book	demosthenes-public-orations-volume-2
+title	Public Orations, Volume 2
+subtitle	Demosthenes
+category	Society
+edition	Demosthenes, Public Orations, Volume 2; A. W. Pickard-Cambridge 1912
+block	3
 
 book	douglass-narrative
 title	Narrative of the Life of Frederick Douglass
@@ -735,6 +1812,13 @@ subtitle	John Locke
 category	Society
 edition	John Locke, Two Treatises of Government (1689); Standard Ebooks edition (CC0)
 block	2
+
+book	lysias-orations
+title	Orations
+subtitle	Lysias
+category	Society
+edition	Lysias, Orations; W. R. M. Lamb 1930 (Loeb) / anon.
+block	3
 
 book	discourses-on-livy
 title	Discourses on Livy
@@ -785,6 +1869,13 @@ category	Society
 edition	Adam Smith, The Wealth of Nations (1776); Standard Ebooks edition (CC0)
 block	2
 
+book	tacitus-dialogue-oratory
+title	A Dialogue on Oratory
+subtitle	Tacitus
+category	Society
+edition	Tacitus, A Dialogue on Oratory; Arthur Murphy 1793
+block	3
+
 book	scientific-management
 title	The Principles of Scientific Management
 subtitle	Frederick Winslow Taylor
@@ -820,6 +1911,122 @@ category	Society
 edition	Thorstein Veblen, The Theory of the Leisure Class (1899); Standard Ebooks edition (CC0)
 block	2
 
+book	xenophon-sportsman
+title	The Sportsman
+subtitle	Xenophon
+category	Society
+edition	Xenophon, The Sportsman; H. G. Dakyns
+block	3
+
+book	xenophon-constitutions-athens-sparta
+title	Constitutions of Athens and Sparta
+subtitle	Xenophon
+category	Society
+edition	Xenophon, Constitutions of Athens and Sparta; H. G. Dakyns
+block	3
+
+book	xenophon-economist
+title	The Economist
+subtitle	Xenophon
+category	Society
+edition	Xenophon, The Economist; H. G. Dakyns
+block	3
+
+book	xenophon-hiero
+title	Hiero
+subtitle	Xenophon
+category	Society
+edition	Xenophon, Hiero; H. G. Dakyns
+block	3
+
+book	xenophon-cavalry-general
+title	The Cavalry General
+subtitle	Xenophon
+category	Society
+edition	Xenophon, The Cavalry General; H. G. Dakyns
+block	3
+
+book	xenophon-horsemanship
+title	On Horsemanship
+subtitle	Xenophon
+category	Society
+edition	Xenophon, On Horsemanship; H. G. Dakyns
+block	3
+
+book	xenophon-revenues
+title	On Revenues
+subtitle	Xenophon
+category	Society
+edition	Xenophon, On Revenues; H. G. Dakyns
+block	3
+
+book	aeschines-speeches
+title	Speeches
+subtitle	Aeschines
+category	Society
+edition	Aeschines, Speeches; translated by Charles Darwin Adams, William Heinemann, Ltd., 1919 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Charles Darwin Adams, William Heinemann, Ltd., 1919
+block	3
+
+book	minor-attic-orators
+title	Minor Attic Orators
+subtitle	Andocides, Antiphon, Dinarchus, Hyperides, Isaeus, Lycurgus
+category	Society
+edition	Andocides, Antiphon, Dinarchus, Hyperides, Isaeus, Lycurgus, Minor Attic Orators; translated by Kenneth John Maidment, William Heinemann, Ltd., 1941; translated by J. O. Burtt, William Heinemann, Ltd., 1954; translated by Edward Seymour Forster, Harvard University Press, 1962 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Kenneth John Maidment, William Heinemann, Ltd., 1941; translated by J. O. Burtt, William Heinemann, Ltd., 1954; translated by Edward Seymour Forster, Harvard University Press, 1962
+block	3
+
+book	cicero-orations
+title	Orations
+subtitle	Cicero
+category	Society
+edition	Cicero, Orations; translated by Charles Duke Yonge, Henry G. Bohn and George Bell & Sons, 1856-1903 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Charles Duke Yonge, Henry G. Bohn and George Bell & Sons, 1856-1903
+block	3
+
+book	gellius-attic-nights
+title	Attic Nights
+subtitle	Aulus Gellius
+category	Society
+edition	Aulus Gellius, Attic Nights; translated by John C. Rolfe, Loeb Classical Library, 1927 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by John C. Rolfe, Loeb Classical Library, 1927
+block	3
+
+book	isocrates-works
+title	Works
+subtitle	Isocrates
+category	Society
+edition	Isocrates, Works; translated by Larue Van Hook, Loeb Classical Library, 1945; translated by George Norlin, Loeb Classical Library, 1928 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Larue Van Hook, Loeb Classical Library, 1945; translated by George Norlin, Loeb Classical Library, 1928
+block	3
+
+book	quintilian-institutes-oratory
+title	Institutes of Oratory
+subtitle	Quintilian
+category	Society
+edition	Quintilian, Institutes of Oratory; translated by Harold Edgeworth Butler, Loeb Classical Library, 1920-1922 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Harold Edgeworth Butler, Loeb Classical Library, 1920-1922
+block	3
+
+book	aristotle-history-animals
+title	History of Animals
+subtitle	Aristotle
+category	Science
+edition	Aristotle, History of Animals; Cresswell 1862
+block	3
+
 book	mendel-heredity
 title	Mendel's Principles of Heredity: A Defence
 subtitle	William Bateson; Gregor Mendel
@@ -833,6 +2040,13 @@ subtitle	Sadi Carnot
 category	Science
 edition	Sadi Carnot, Reflections on the Motive Power of Heat (1824); Thurston translation, with Kelvin's account of Carnot's theory, Gutenberg
 block	2
+
+book	celsus-medicine
+title	On Medicine
+subtitle	Aulus Cornelius Celsus
+category	Science
+edition	Aulus Cornelius Celsus, On Medicine; Greive 1756
+block	3
 
 book	voyage-of-the-beagle
 title	The Voyage of the Beagle
@@ -848,12 +2062,75 @@ category	Science
 edition	Charles Darwin, On the Origin of Species (1859); Standard Ebooks edition (CC0)
 block	2
 
+book	pliny-natural-history-vol-1
+title	Natural History, vol. 1
+subtitle	Pliny the Elder
+category	Science
+edition	Pliny the Elder, Natural History, vol. 1; Bostock & Riley 1855
+block	3
+
+book	pliny-natural-history-vol-2
+title	Natural History, vol. 2
+subtitle	Pliny the Elder
+category	Science
+edition	Pliny the Elder, Natural History, vol. 2; Bostock & Riley 1855
+block	3
+
+book	pliny-natural-history-vol-3
+title	Natural History, vol. 3
+subtitle	Pliny the Elder
+category	Science
+edition	Pliny the Elder, Natural History, vol. 3; Bostock & Riley 1855
+block	3
+
+book	pliny-natural-history-vol-4
+title	Natural History, vol. 4
+subtitle	Pliny the Elder
+category	Science
+edition	Pliny the Elder, Natural History, vol. 4; Bostock & Riley 1855
+block	3
+
+book	pliny-natural-history-vol-5
+title	Natural History, vol. 5
+subtitle	Pliny the Elder
+category	Science
+edition	Pliny the Elder, Natural History, vol. 5; Bostock & Riley 1855
+block	3
+
+book	pliny-natural-history-vol-6
+title	Natural History, vol. 6
+subtitle	Pliny the Elder
+category	Science
+edition	Pliny the Elder, Natural History, vol. 6; Bostock & Riley 1855
+block	3
+
+book	euclid-elements-books-i-vi
+title	The Elements, Books I to VI
+subtitle	Euclid
+category	Science
+edition	Euclid, The Elements, Books I to VI; Casey 1885
+block	3
+
 book	faraday-researches-1
 title	Experimental Researches in Electricity, Volume 1
 subtitle	Michael Faraday
 category	Science
 edition	Michael Faraday, Experimental Researches in Electricity, Volume 1 (1839); 2nd edition, Taylor 1849 (Series I-XIV), Gutenberg
 block	2
+
+book	frontinus-stratagems-aqueducts-rome
+title	Stratagems; The Aqueducts of Rome
+subtitle	Frontinus
+category	Science
+edition	Frontinus, Stratagems; The Aqueducts of Rome; Charles E. Bennett & Clemens Herschel 1925 (Loeb)
+block	3
+
+book	hippocrates-genuine-works-volume-1
+title	The Genuine Works, Volume 1
+subtitle	Hippocrates
+category	Science
+edition	Hippocrates, The Genuine Works, Volume 1; Adams 1849
+block	3
 
 book	principles-of-science
 title	The Principles of Science
@@ -876,12 +2153,54 @@ category	Science
 edition	Charles Lyell, Principles of Geology (1830); 9th edition, revised, 1853, Gutenberg
 block	2
 
+book	newton-principia
+title	The Principia
+subtitle	Isaac Newton
+category	Science
+edition	Isaac Newton, The Principia; Motte 1729, Chittenden ed. 1846
+block	3
+
+book	newton-opticks
+title	Opticks
+subtitle	Isaac Newton
+category	Science
+edition	Isaac Newton, Opticks; 4th ed. 1730
+block	3
+
 book	foundations-of-science
 title	The Foundations of Science
 subtitle	Henri Poincaré
 category	Science
 edition	Henri Poincaré, The Foundations of Science (1902); Halsted translation 1913, Gutenberg
 block	2
+
+book	proclus-first-book-euclid-volume-1
+title	On the First Book of Euclid, Volume 1
+subtitle	Proclus
+category	Science
+edition	Proclus, On the First Book of Euclid, Volume 1; Thomas Taylor 1792
+block	3
+
+book	proclus-first-book-euclid-volume-2
+title	On the First Book of Euclid, Volume 2
+subtitle	Proclus
+category	Science
+edition	Proclus, On the First Book of Euclid, Volume 2; Thomas Taylor 1792
+block	3
+
+book	ptolemy-tetrabiblos
+title	Tetrabiblos
+subtitle	Ptolemy
+category	Science
+edition	Ptolemy, Tetrabiblos; Ashmand 1822
+block	3
+
+book	seneca-natural-questions
+title	Natural Questions
+subtitle	Seneca
+category	Science
+edition	Seneca, Natural Questions; John Clarke 1910
+block	3
 
 book	snow-cholera
 title	On the Mode of Communication of Cholera
@@ -890,12 +2209,54 @@ category	Science
 edition	John Snow, On the Mode of Communication of Cholera (1849); 2nd edition, much enlarged, 1855, Gutenberg
 block	2
 
+book	strabo-geography-vol-1
+title	Geography, vol. 1
+subtitle	Strabo
+category	Science
+edition	Strabo, Geography, vol. 1; Hamilton & Falconer 1854
+block	3
+
+book	strabo-geography-vol-2
+title	Geography, vol. 2
+subtitle	Strabo
+category	Science
+edition	Strabo, Geography, vol. 2; Hamilton & Falconer 1854
+block	3
+
+book	strabo-geography-vol-3
+title	Geography, vol. 3
+subtitle	Strabo
+category	Science
+edition	Strabo, Geography, vol. 3; Hamilton & Falconer 1854
+block	3
+
+book	varro-agriculture
+title	On Agriculture
+subtitle	Cato and Varro
+category	Science
+edition	Cato and Varro, On Agriculture; Fairfax Harrison 1913
+block	3
+
 book	vitruvius
 title	The Ten Books on Architecture
 subtitle	Vitruvius
 category	Science
 edition	Vitruvius, The Ten Books on Architecture (-15); Morgan translation 1914, Gutenberg
 block	2
+
+book	aesop-fables
+title	Fables
+subtitle	Aesop
+category	Fiction
+edition	Aesop, Fables; 
+block	3
+
+book	apuleius-golden-ass
+title	The Golden Ass
+subtitle	Apuleius
+category	Fiction
+edition	Apuleius, The Golden Ass; 
+block	3
 
 book	eugenie-grandet
 title	Eugénie Grandet
@@ -1254,6 +2615,62 @@ category	Fiction
 edition	Alexandre Dumas, The Vicomte de Bragelonne (incl. Louise de la Vallière and The Man in the Iron Mask) (1847); Standard Ebooks edition (CC0), Routledge translation 1857
 block	1
 
+book	eliot-daniel-deronda
+title	Daniel Deronda
+subtitle	George Eliot
+category	Fiction
+edition	George Eliot, Daniel Deronda; 
+block	3
+
+book	eliot-middlemarch
+title	Middlemarch
+subtitle	George Eliot
+category	Fiction
+edition	George Eliot, Middlemarch; 
+block	3
+
+book	eliot-mill-floss
+title	The Mill on the Floss
+subtitle	George Eliot
+category	Fiction
+edition	George Eliot, The Mill on the Floss; 
+block	3
+
+book	eliot-romola
+title	Romola
+subtitle	George Eliot
+category	Fiction
+edition	George Eliot, Romola; 
+block	3
+
+book	eliot-silas-marner
+title	Silas Marner
+subtitle	George Eliot
+category	Fiction
+edition	George Eliot, Silas Marner; 
+block	3
+
+book	faulkner-as-i-lay-dying
+title	As I Lay Dying
+subtitle	William Faulkner
+category	Fiction
+edition	William Faulkner, As I Lay Dying; 
+block	3
+
+book	faulkner-soldiers-pay
+title	Soldiers’ Pay
+subtitle	William Faulkner
+category	Fiction
+edition	William Faulkner, Soldiers’ Pay; 
+block	3
+
+book	faulkner-sound-fury
+title	The Sound and the Fury
+subtitle	William Faulkner
+category	Fiction
+edition	William Faulkner, The Sound and the Fury; 
+block	3
+
 book	the-great-gatsby
 title	The Great Gatsby
 subtitle	F. Scott Fitzgerald
@@ -1281,6 +2698,34 @@ subtitle	Gustave Flaubert
 category	Fiction
 edition	Gustave Flaubert, Three Tales (with The Dance of Death) (1877); Standard Ebooks edition (CC0), Dunne translation 1904
 block	1
+
+book	goethe-sorrows-young-werther
+title	The Sorrows of Young Werther
+subtitle	Johann Wolfgang von Goethe
+category	Fiction
+edition	Johann Wolfgang von Goethe, The Sorrows of Young Werther; 
+block	3
+
+book	goethe-wilhelm-meister-vol-1
+title	Wilhelm Meister, vol. 1
+subtitle	Johann Wolfgang von Goethe
+category	Fiction
+edition	Johann Wolfgang von Goethe, Wilhelm Meister, vol. 1; Carlyle translation, Chapman & Hall 1899 ed.
+block	3
+
+book	goethe-elective-affinities
+title	Elective Affinities
+subtitle	Johann Wolfgang von Goethe
+category	Fiction
+edition	Johann Wolfgang von Goethe, Elective Affinities; Froude/Boylan translation, in German Classics vol. 2 (1913)
+block	3
+
+book	goethe-wilhelm-meister-vol-2
+title	Wilhelm Meister, vol. 2
+subtitle	Johann Wolfgang von Goethe
+category	Fiction
+edition	Johann Wolfgang von Goethe, Wilhelm Meister, vol. 2; Carlyle translation
+block	3
 
 book	dead-souls
 title	Dead Souls
@@ -1359,6 +2804,13 @@ category	Fiction
 edition	Nathaniel Hawthorne, The House of the Seven Gables (1851); Standard Ebooks edition (CC0)
 block	1
 
+book	greek-romances
+title	The Greek Romances
+subtitle	Heliodorus, Longus, Achilles Tatius
+category	Fiction
+edition	Heliodorus, Longus, Achilles Tatius, The Greek Romances; Rowland Smith 1855 (Bohn)
+block	3
+
 book	hemingway-short-fiction
 title	Short Fiction
 subtitle	Ernest Hemingway
@@ -1393,6 +2845,195 @@ subtitle	Victor Hugo
 category	Fiction
 edition	Victor Hugo, Les Misérables (1862); Standard Ebooks edition (CC0), Hapgood translation 1887
 block	1
+
+book	james-ambassadors
+title	The Ambassadors
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Ambassadors; 
+block	3
+
+book	james-golden-bowl
+title	The Golden Bowl
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Golden Bowl; 
+block	3
+
+book	james-portrait-lady
+title	The Portrait of a Lady
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Portrait of a Lady; 
+block	3
+
+book	james-washington-square
+title	Washington Square
+subtitle	Henry James
+category	Fiction
+edition	Henry James, Washington Square; 
+block	3
+
+book	james-wings-dove
+title	The Wings of the Dove
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Wings of the Dove; 
+block	3
+
+book	james-roderick-hudson
+title	Roderick Hudson
+subtitle	Henry James
+category	Fiction
+edition	Henry James, Roderick Hudson; Original
+block	3
+
+book	james-american
+title	The American
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The American; Original
+block	3
+
+book	james-daisy-miller
+title	Daisy Miller
+subtitle	Henry James
+category	Fiction
+edition	Henry James, Daisy Miller; Original
+block	3
+
+book	james-europeans
+title	The Europeans
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Europeans; Original
+block	3
+
+book	james-confidence
+title	Confidence
+subtitle	Henry James
+category	Fiction
+edition	Henry James, Confidence; Original
+block	3
+
+book	james-bostonians-vol-1
+title	The Bostonians, vol. 1
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Bostonians, vol. 1; Original
+block	3
+
+book	james-bostonians-vol-2
+title	The Bostonians, vol. 2
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Bostonians, vol. 2; Original
+block	3
+
+book	james-princess-casamassima
+title	The Princess Casamassima
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Princess Casamassima; Original
+block	3
+
+book	james-aspern-papers
+title	The Aspern Papers
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Aspern Papers; Original
+block	3
+
+book	james-lesson-master
+title	The Lesson of the Master
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Lesson of the Master; Original
+block	3
+
+book	james-tragic-muse
+title	The Tragic Muse
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Tragic Muse; Original
+block	3
+
+book	james-pupil
+title	The Pupil
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Pupil; Original
+block	3
+
+book	james-real-thing-other-tales
+title	The Real Thing and Other Tales
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Real Thing and Other Tales; Original
+block	3
+
+book	james-embarrassments
+title	Embarrassments
+subtitle	Henry James
+category	Fiction
+edition	Henry James, Embarrassments; Original
+block	3
+
+book	james-spoils-poynton
+title	The Spoils of Poynton
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Spoils of Poynton; Original
+block	3
+
+book	james-what-maisie-knew
+title	What Maisie Knew
+subtitle	Henry James
+category	Fiction
+edition	Henry James, What Maisie Knew; Original
+block	3
+
+book	james-awkward-age
+title	The Awkward Age
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Awkward Age; Original
+block	3
+
+book	james-sacred-fount
+title	The Sacred Fount
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Sacred Fount; Original
+block	3
+
+book	james-beast-jungle
+title	The Beast in the Jungle
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Beast in the Jungle; Original
+block	3
+
+book	james-jolly-corner
+title	The Jolly Corner
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Jolly Corner; Original
+block	3
+
+book	james-lady-barbarina-other-tales
+title	Lady Barbarina and Other Tales
+subtitle	Henry James
+category	Fiction
+edition	Henry James, Lady Barbarina and Other Tales; NY Edition vol
+block	3
+
+book	james-ivory-tower
+title	The Ivory Tower
+subtitle	Henry James
+category	Fiction
+edition	Henry James, The Ivory Tower; Original
+block	3
 
 book	ulysses
 title	Ulysses
@@ -1435,6 +3076,27 @@ subtitle	Jack London
 category	Fiction
 edition	Jack London, White Fang (1906); Standard Ebooks edition (CC0)
 block	1
+
+book	lucian-works-vol-1
+title	The Works of Lucian, vol. 1
+subtitle	Lucian
+category	Fiction
+edition	Lucian, The Works of Lucian, vol. 1; H. W. & F. G. Fowler 1905
+block	3
+
+book	lucian-works-vol-3
+title	The Works of Lucian, vol. 3
+subtitle	Lucian
+category	Fiction
+edition	Lucian, The Works of Lucian, vol. 3; H. W. & F. G. Fowler 1905
+block	3
+
+book	lucian-works-vol-4
+title	The Works of Lucian, vol. 4
+subtitle	Lucian
+category	Fiction
+edition	Lucian, The Works of Lucian, vol. 4; H. W. & F. G. Fowler 1905
+block	3
 
 book	maupassant-short-fiction
 title	Short Fiction
@@ -1492,6 +3154,13 @@ category	Fiction
 edition	A. A. Milne, The Red House Mystery (1922); Standard Ebooks edition (CC0)
 block	1
 
+book	petronius-satyricon
+title	The Satyricon
+subtitle	Petronius
+category	Fiction
+edition	Petronius, The Satyricon; W. C. Firebaugh 1922
+block	3
+
 book	poe-short-fiction
 title	Tales
 subtitle	Edgar Allan Poe
@@ -1512,6 +3181,13 @@ subtitle	François Rabelais
 category	Fiction
 edition	François Rabelais, Gargantua and Pantagruel (1532); Urquhart/Motteux translation with Doré illustrations, Gutenberg
 block	1
+
+book	seneca-apocolocyntosis
+title	Apocolocyntosis
+subtitle	Seneca
+category	Fiction
+edition	Seneca, Apocolocyntosis; W. H. D. Rouse 1913 (Loeb)
+block	3
 
 book	the-charterhouse-of-parma
 title	The Charterhouse of Parma
@@ -2206,6 +3882,13 @@ category	Fantasy
 edition	Robert E. Howard, The Moon of Skulls (1930); Weird Tales, June-July 1930, Gutenberg transcription
 block	1
 
+book	james-turn-screw
+title	The Turn of the Screw
+subtitle	Henry James
+category	Fantasy
+edition	Henry James, The Turn of the Screw; 
+block	3
+
 book	m-r-james-ghost-stories
 title	Ghost Stories
 subtitle	M. R. James
@@ -2353,6 +4036,13 @@ category	Drama
 edition	Aeschylus, Four Plays of Aeschylus (-472); Morshead translation, Gutenberg
 block	2
 
+book	aeschylus-tragedies-fragments
+title	Tragedies and Fragments
+subtitle	Aeschylus
+category	Drama
+edition	Aeschylus, Tragedies and Fragments; E. H. Plumptre 1868
+block	3
+
 book	agamemnon
 title	Agamemnon
 subtitle	Aeschylus
@@ -2387,6 +4077,13 @@ subtitle	Aristophanes
 category	Drama
 edition	Aristophanes, The Birds (-414); Standard Ebooks edition (CC0), Athenian Society translation 1912
 block	2
+
+book	aristophanes-eleven-comedies-volume-2
+title	The Eleven Comedies, Volume 2
+subtitle	Aristophanes
+category	Drama
+edition	Aristophanes, The Eleven Comedies, Volume 2; Athenian Society 1912 (anon.)
+block	3
 
 book	the-frogs
 title	The Frogs
@@ -2569,6 +4266,13 @@ subtitle	Jean Racine
 category	Drama
 edition	Jean Racine, Phaedra (Phèdre) (1677); Bohn 1890 Boswell translation, Gutenberg
 block	1
+
+book	seneca-tragedies
+title	The Tragedies of Seneca
+subtitle	Seneca
+category	Drama
+edition	Seneca, The Tragedies of Seneca; Frank Justus Miller 1907
+block	3
 
 book	shakespeare-alls-well-that-ends-well
 title	All's Well That Ends Well
@@ -2850,6 +4554,34 @@ category	Drama
 edition	Sophocles, Oedipus at Colonus (-401); Standard Ebooks edition (CC0), Storr translation 1912
 block	2
 
+book	sophocles-ajax
+title	Ajax
+subtitle	Sophocles
+category	Drama
+edition	Sophocles, Ajax; 
+block	3
+
+book	sophocles-electra
+title	Electra
+subtitle	Sophocles
+category	Drama
+edition	Sophocles, Electra; 
+block	3
+
+book	sophocles-trachiniae
+title	The Trachiniae
+subtitle	Sophocles
+category	Drama
+edition	Sophocles, The Trachiniae; 
+block	3
+
+book	terence-comedies
+title	The Comedies
+subtitle	Terence
+category	Drama
+edition	Terence, The Comedies; H. T. Riley 1853 (Bohn)
+block	3
+
 book	lady-windermeres-fan
 title	Lady Windermere's Fan
 subtitle	Oscar Wilde
@@ -2885,12 +4617,39 @@ category	Drama
 edition	Oscar Wilde, The Importance of Being Earnest (1895); Standard Ebooks edition (CC0)
 block	1
 
+book	euripides-plays
+title	The Plays
+subtitle	Euripides
+category	Drama
+edition	Euripides, The Plays; translated by Edward P. Coleridge, 1891, the Bacchae by T. A. Buckley, 1850 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Edward P. Coleridge, 1891 (the Bacchae by T. A. Buckley, 1850)
+block	3
+
+book	plautus-comedies
+title	The Comedies
+subtitle	Plautus
+category	Drama
+edition	Plautus, The Comedies; translated by Henry Thomas Riley, G. Bell and Sons, 1912-1913 (Perseus TEI)
+licence	CC BY-SA 4.0
+licence_url	https://creativecommons.org/licenses/by-sa/4.0/
+credit	Perseus Digital Library, Tufts University: translated by Henry Thomas Riley, G. Bell and Sons, 1912-1913
+block	3
+
 book	divine-comedy
 title	The Divine Comedy
 subtitle	Dante Alighieri
 category	Poetry
 edition	Dante Alighieri, The Divine Comedy (1320); Standard Ebooks edition (CC0), Longfellow translation 1867
 block	2
+
+book	apollonius-argonautica
+title	The Argonautica
+subtitle	Apollonius of Rhodes
+category	Poetry
+edition	Apollonius of Rhodes, The Argonautica; 
+block	3
 
 book	orlando-furioso
 title	Orlando Furioso
@@ -2912,6 +4671,13 @@ subtitle	Lewis Carroll
 category	Poetry
 edition	Lewis Carroll, The Hunting of the Snark (1876); Macmillan 1876 with Holiday illustrations, Gutenberg
 block	1
+
+book	catullus-poems-fragments
+title	Poems and Fragments
+subtitle	Catullus
+category	Poetry
+edition	Catullus, Poems and Fragments; Robinson Ellis 1871
+block	3
 
 book	canterbury-tales
 title	The Canterbury Tales
@@ -2948,6 +4714,20 @@ category	Poetry
 edition	Homer, The Odyssey (-725); Standard Ebooks edition (CC0), Bryant blank-verse translation 1871
 block	2
 
+book	horace-odes
+title	The Odes
+subtitle	Horace
+category	Poetry
+edition	Horace, The Odes; John Conington 1863
+block	3
+
+book	horace-satires-epistles-art-poetry
+title	Satires, Epistles and the Art of Poetry
+subtitle	Horace
+category	Poetry
+edition	Horace, Satires, Epistles and the Art of Poetry; John Conington 1870
+block	3
+
 book	kalevala-vol-1
 title	Kalevala, the Land of the Heroes, vol. 1
 subtitle	Elias Lönnrot (compiler)
@@ -2961,6 +4741,13 @@ subtitle	Elias Lönnrot (compiler)
 category	Poetry
 edition	Elias Lönnrot (compiler), Kalevala, the Land of the Heroes, vol. 2 (1835); Everyman 1907 Kirby translation, Gutenberg
 block	1
+
+book	lucan-pharsalia
+title	Pharsalia
+subtitle	Lucan
+category	Poetry
+edition	Lucan, Pharsalia; anon. (Gutenberg)
+block	3
 
 book	lucretius
 title	On the Nature of Things
@@ -2997,12 +4784,54 @@ category	Poetry
 edition	Anonymous, The Nibelungenlied (1200); Standard Ebooks edition (CC0), Horton translation 1898
 block	1
 
+book	ovid-amores
+title	The Amores
+subtitle	Ovid
+category	Poetry
+edition	Ovid, The Amores; H. T. Riley 1852
+block	3
+
+book	ovid-art-love
+title	The Art of Love
+subtitle	Ovid
+category	Poetry
+edition	Ovid, The Art of Love; H. T. Riley 1852 (prose, with notes)
+block	3
+
+book	ovid-remedy-love
+title	The Remedy of Love
+subtitle	Ovid
+category	Poetry
+edition	Ovid, The Remedy of Love; H. T. Riley 1852
+block	3
+
 book	metamorphoses
 title	Metamorphoses
 subtitle	Ovid
 category	Poetry
 edition	Ovid, Metamorphoses (8); Standard Ebooks edition (CC0), Garth's 1717 composite translation
 block	2
+
+book	ovid-tristia-ex-ponto
+title	Tristia and Ex Ponto
+subtitle	Ovid
+category	Poetry
+edition	Ovid, Tristia and Ex Ponto; ed. Mark Bear Akrigg
+block	3
+
+book	juvenal-satires
+title	The Satires
+subtitle	Juvenal and Persius
+category	Poetry
+edition	Juvenal and Persius, The Satires; Lewis Evans 1848 (Bohn), with Gifford verse
+block	3
+
+book	pindar-victory-odes
+title	Victory Odes
+subtitle	Pindar
+category	Poetry
+edition	Pindar, Victory Odes; 
+block	3
 
 book	poe-poetry
 title	Poems
@@ -3011,6 +4840,13 @@ category	Poetry
 edition	Edgar Allan Poe, Poems (1827); Standard Ebooks edition (CC0)
 block	1
 
+book	sappho-poems
+title	Poems
+subtitle	Sappho
+category	Poetry
+edition	Sappho, Poems; Edwin Marion Cox 1924 (with Wharton and earlier translators)
+block	3
+
 book	the-faerie-queene
 title	The Faerie Queene
 subtitle	Edmund Spenser
@@ -3018,12 +4854,40 @@ category	Poetry
 edition	Edmund Spenser, The Faerie Queene (1590); Standard Ebooks edition (CC0)
 block	1
 
+book	statius-silvae-thebaid-i-iv
+title	Silvae; Thebaid I to IV
+subtitle	Statius
+category	Poetry
+edition	Statius, Silvae; Thebaid I to IV; J. H. Mozley 1928 (Loeb)
+block	3
+
+book	statius-thebaid-v-xii-achilleid
+title	Thebaid V to XII; Achilleid
+subtitle	Statius
+category	Poetry
+edition	Statius, Thebaid V to XII; Achilleid; J. H. Mozley 1928 (Loeb)
+block	3
+
 book	a-childs-garden-of-verses
 title	A Child's Garden of Verses
 subtitle	Robert Louis Stevenson
 category	Poetry
 edition	Robert Louis Stevenson, A Child's Garden of Verses (1885); Gutenberg transcription
 block	1
+
+book	theocritus-idylls
+title	Idylls
+subtitle	Theocritus, Bion and Moschus
+category	Poetry
+edition	Theocritus, Bion and Moschus, Idylls; Andrew Lang 1880
+block	3
+
+book	tibullus-elegies
+title	The Elegies
+subtitle	Tibullus
+category	Poetry
+edition	Tibullus, The Elegies; Theodore C. Williams 1905
+block	3
 
 book	eclogues
 title	The Eclogues

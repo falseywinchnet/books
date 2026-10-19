@@ -17,6 +17,12 @@
    "url": "https://github.com/falseywinchnet/books/releases/download/library-data/block-2-9b3b7a73d0b08289.plb",
    "size": 33083464,
    "sha256": "9b3b7a73d0b08289f43e66d163004f706c525e84ae332f069041cb05df39bdb5"
+  },
+  {
+   "path": "books/block-3-e3ba1b1649b09eb6.plb",
+   "url": "https://github.com/falseywinchnet/books/releases/download/library-data/block-3-e3ba1b1649b09eb6.plb",
+   "size": 60145047,
+   "sha256": "e3ba1b1649b09eb654f518ee6670b8b873e10a4d42f61ca108492c8b3220cf85"
   }
  ]
 }

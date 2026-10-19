@@ -57,6 +57,15 @@ STYLES = ("p", "flush", "centre", "q1", "q2", "right", "acrostic", "list1", "lis
           "verse", "note", "entry", "folio")
 
 
+# Scripts the library's faces cannot set. Hebrew is given in Latin letters, in italic
+# (lexicon_reader.hebrew_in_latin); the others (a translator's Japanese or Arabic
+# characters beside his romanization) are left out, counted in the book's head.
+HEBREW_RUN = re.compile(r"[\u0591-\u05f4\ufb1d-\ufb4f]+(?:[\s\u05be][\u0591-\u05f4\ufb1d-\ufb4f]+)*")
+UNSET_RUN = re.compile(r"[\u0600-\u06ff\u0700-\u074f\u0750-\u077f\u3000-\u30ff\u3400-\u4dbf\u4e00-\u9fff"
+                       r"\uf900-\ufaff\uff00-\uffef]+")
+UNSET_NAMES = (("\u0600", "\u077f", "Arabic or Syriac"), ("\u3000", "\uffef", "Japanese or Chinese"))
+
+
 class Book:
     """One book's records, with the head written first."""
 
@@ -66,6 +75,8 @@ class Book:
         self.records = []
         self.dropped = collections.Counter()
         self.head_counts = collections.Counter()
+        self.italic = 0  # italic spans open, so a transliteration does not open another
+        self.unset = False  # characters were left out: brackets they leave empty go too
 
     def add(self, kind: str, *fields: object) -> None:
         for field in fields:
@@ -73,13 +84,50 @@ class Book:
             if "\t" in text or "\n" in text or "\r" in text:
                 raise ValueError("%s: a field holds a TAB or line break: %r" % (self.name, text[:60]))
         self.records.append((kind,) + tuple(str(field) for field in fields))
+        if kind == "Y" and fields and fields[0] == "italic":
+            self.italic = max(0, self.italic + (1 if str(fields[1]) == "1" else -1))
 
     def text(self, text: str) -> None:
+        if not text:
+            return
+        if UNSET_RUN.search(text):
+            def unset(match: re.Match) -> str:
+                for low, high, name in UNSET_NAMES:
+                    if low <= match.group(0)[0] <= high:
+                        self.dropped["%s characters (the faces have none; the translator's own words kept)" % name] += 1
+                return ""
+            text = UNSET_RUN.sub(unset, text)
+            self.unset = True
+        if HEBREW_RUN.search(text):
+            import lexicon_reader
+            at = 0
+            for match in HEBREW_RUN.finditer(text):
+                self.append_text(text[at:match.start()])
+                words = [lexicon_reader.hebrew_in_latin(word) for word in re.split(r"[\s\u05be]+", match.group(0))]
+                latin = " ".join(word for word in words if word)
+                if latin:
+                    opened = self.italic == 0
+                    if opened:
+                        self.add("Y", "italic", "1")
+                    self.append_text(latin)
+                    if opened:
+                        self.add("Y", "italic", "0")
+                    self.head_counts["Hebrew given in Latin letters (the faces have no Hebrew)"] += 1
+                at = match.end()
+            text = text[at:]
+        self.append_text(text)
+
+    def append_text(self, text: str) -> None:
         if text:
             if self.records and self.records[-1][0] == "T":
                 self.records[-1] = ("T", self.records[-1][1] + text)
             else:
                 self.add("T", text)
+        if self.unset and self.records and self.records[-1][0] == "T":
+            tidy = re.sub(r" ?[(\[]\s*[,;:]?\s*[)\]]", "", self.records[-1][1])
+            tidy = re.sub(r"(?<=\S)  +", " ", tidy)
+            if tidy != self.records[-1][1]:
+                self.records[-1] = ("T", tidy)
 
     def write(self, folder: str) -> str:
         path = os.path.join(folder, self.name + ".tsv")
@@ -1037,11 +1085,13 @@ def write_shelf(path: str, catalogue: list, sources: dict) -> None:
 
 def import_entry(sources: dict, folder: str, out: str, entry: dict) -> str:
     """A catalogue book read by a general importer: `epub` (an EPUB), `sefaria` (Sefaria's
-    JSON, one file a division, in the order `files` gives), `tbes` (a STEPBible brief
+    JSON, one file a division, in the order `files` gives), `perseus` (Perseus' TEI, one
+    file a work, in the order `files` gives), `tbes` (a STEPBible brief
     lexicon, its `language` G or H), `abbott-smith` (Abbott-Smith's TEI) or `usfm` (the
     books `codes` names from a zipped USFM Bible)."""
     import epub_reader
     import lexicon_reader
+    import perseus_reader
     import sefaria_reader
     import usfm_reader
     names = entry["files"] if "files" in entry else [entry["file"]]
@@ -1054,6 +1104,8 @@ def import_entry(sources: dict, folder: str, out: str, entry: dict) -> str:
         epub_reader.import_epub(data, book, entry["id"])
     elif importer == "sefaria":
         sefaria_reader.import_sefaria([sefaria_reader.load(bytes_) for bytes_, _ in pinned], book)
+    elif importer == "perseus":
+        perseus_reader.import_perseus([bytes_ for bytes_, _ in pinned], book)
     elif importer == "tbes":
         lexicon_reader.import_tbes(data, book, entry["language"])
     elif importer == "abbott-smith":
@@ -1070,6 +1122,8 @@ def main() -> int:
     parser.add_argument("--sources", default=os.path.join(ROOT, ".build", "library", "sources"))
     parser.add_argument("--out", default=os.path.join(ROOT, ".build", "library", "normalized"))
     parser.add_argument("--make-corrections", action="store_true")
+    parser.add_argument("--block", type=int, metavar="N",
+                        help="import only the books of block N (a new batch), and the shelf index")
     parser.add_argument("--shelf", metavar="FILE",
                         help="only write the shelf index there (from the catalogue and the lock; no source is read)")
     arguments = parser.parse_args()
@@ -1078,6 +1132,20 @@ def main() -> int:
         return 0
     os.makedirs(arguments.out, exist_ok=True)
     sources = load_lock()
+    if arguments.block:
+        catalogue = load_catalogue()
+        failures = 0
+        for entry in catalogue:
+            if entry["block"] != arguments.block or entry["importer"] == "own":
+                continue
+            try:
+                path = import_entry(sources, arguments.sources, arguments.out, entry)
+                print("%9d bytes  %s" % (os.path.getsize(path), entry["id"]), flush=True)
+            except Exception as error:  # report every book that does not import, then fail
+                print("FAILED %s: %s: %s" % (entry["id"], type(error).__name__, error), flush=True)
+                failures += 1
+        write_shelf(os.path.join(arguments.out, "shelf.txt"), catalogue, sources)
+        return 1 if failures else 0
     bsb = import_bsb(sources, arguments.sources, arguments.out, arguments.make_corrections)
     expected, found, differences, empty = bsb_verse_check(sources, arguments.sources, bsb, bsb_book_order(sources, arguments.sources))
     print("bsb: %d verses in bsb.txt, %d imported, %d differ; empty in bsb.txt and absent from the USFM: %s" % (expected, found, differences, ", ".join(empty)))

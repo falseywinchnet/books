@@ -205,7 +205,19 @@ The first generation (2026-10-18), 472 books, 433,189,357 bytes of text:
 | **all three** | **472** | **85,719,232 (19.79% of the text)** |
 
 Every book read back byte for byte. Block 2 coded again alone against the published base
-is the same file, byte for byte. The one-file library it replaces (format 3) was
+is the same file, byte for byte.
+
+Block 3 (2026-10-19), the first coded after the generation was frozen: 253 books (the
+Greek and Roman authors, the Nicene and Post-Nicene Fathers, the Jerusalem Talmud, the
+Mishneh Torah and the owner's named works), 294,212,184 bytes of text in 60,145,047
+(20.44%, against 19.79% for the generation: the frozen tables cost about half a point).
+The library is then 725 books in 145,864,279 bytes.
+
+The importers learned more for block 3: Wikisource's chapter footnotes, CCEL's title page,
+Perseus' TEI (`perseus_reader.py`), Sefaria's links, and Hebrew given in Latin letters and
+Japanese, Arabic and Syriac characters left out wherever they stand (the faces have
+none). Blocks 1 and 2 were made before that; a block is never re-made unless its own books
+change, and then it is re-imported with the importers as they stand. The one-file library it replaces (format 3) was
 85,802,857 bytes; the shelf records it carried now live in the shelf index.
 
 ```sh

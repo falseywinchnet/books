@@ -17,13 +17,15 @@ book in Literata or in EB Garamond), the paper (India, Book, Wove, Laid, Rag,
 Parchment, Recycled, Kraft, Night, light ink on dark paper, and Phosphor, green on
 black), the paper's texture and the shadow in the gutter.
 
-The shelves hold 472 books, a plank to each kind. Scripture: the Berean Standard
+The shelves hold 725 books, a plank to each kind. Scripture: the Berean Standard
 Bible, the Holy Scriptures of the Jewish Publication Society (1917), the deuterocanon of
-the World English Bible, and 1 Enoch. Rabbinic writings: the Mishnah, Gorfinkle's
+the World English Bible, 1 Enoch, Josephus, the Kojiki and the Nihongi. Rabbinic writings: the Mishnah, Gorfinkle's
 Sayings of the Jewish Fathers, Cohen's Tractate Berakot, the Talmud in four volumes (the
 William Davidson edition, with Steinsaltz's explanation), the Midrash Rabbah, the
-Targums, and Rashi, Ibn Ezra, Ramban and Sforno on the Torah. Church Fathers: the
-Apostolic Fathers, Origen and Augustine. Reference: Strong's Hebrew and Greek
+Targums, Rashi, Ibn Ezra, Ramban and Sforno on the Torah, the Jerusalem Talmud in four
+volumes (Guggenheimer) and the fourteen books of Maimonides' Mishneh Torah (Touger).
+Church Fathers: the Apostolic Fathers, Origen and Augustine, and the twenty-eight
+volumes of the Nicene and Post-Nicene Fathers. Reference: Strong's Hebrew and Greek
 dictionaries, a concordance of the Berean Standard Bible, STEPBible's brief Hebrew and
 Greek lexicons, and Abbott-Smith's Greek lexicon of the New Testament (Hebrew words are
 given in Latin letters).

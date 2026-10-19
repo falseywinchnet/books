@@ -1,1 +1,1 @@
-A bookcase of 472 books, from the Bible, the Talmud and the lexicons to Plato, Darwin, Dickens, Tolstoy, Shakespeare and Oz, each set as a printed book on the paper you choose and opened to the page you left.
+A bookcase of 725 books, from the Bible, both Talmuds and the Church Fathers to Plato, Aristotle, Cicero, Darwin, Dickens, Tolstoy, Shakespeare and Oz, each set as a printed book on the paper you choose and opened to the page you left.

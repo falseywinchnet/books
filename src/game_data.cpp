@@ -40,10 +40,18 @@ std::optional<std::string> read_bounded(const std::filesystem::path& path, std::
     if (!file) {
         return std::nullopt;
     }
-    std::string bytes(limit + 1, '\0');
+    // The buffer is the file's size (one byte more, to notice a file that grew while it
+    // was read), not the limit's: a part of the library is tens of megabytes, a sound a
+    // few kilobytes.
+    std::error_code error;
+    const std::uintmax_t size = std::filesystem::file_size(path, error);
+    if (error || size > limit) {
+        return std::nullopt;
+    }
+    std::string bytes(static_cast<std::size_t>(size) + 1, '\0');
     file.read(bytes.data(), static_cast<std::streamsize>(bytes.size()));
     const std::size_t read = static_cast<std::size_t>(file.gcount());
-    if (read > limit) {
+    if (read > size) {
         return std::nullopt;
     }
     bytes.resize(read);
@@ -101,8 +109,8 @@ std::optional<std::string> load_game_asset(std::string_view relative) {
     if (!valid_path(relative)) {
         return std::nullopt;
     }
-    // Assets are bounded by the gate's limits; allow the largest approved file (the Pocket
-    // Library's books, approved to 128 MB in tools/game_approvals.json).
+    // No asset is larger than a part of the library, and a part is kept well under this
+    // (a block of new books is tens of megabytes).
     constexpr std::size_t asset_limit = 128 * 1024 * 1024;
     return read_bounded(std::filesystem::path(asset_directory()) / std::string(relative), asset_limit);
 }

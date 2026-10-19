@@ -1,6 +1,6 @@
 # Pocket Library
 
-The Pocket Library is a reading room: one native C++20 / GUI.Forms application holding a bookcase of **472 books**, each set as a printed book on the paper you choose and opened to the page you left. Scripture, the rabbinic writings and the Church Fathers stand beside the lexicons, Plato, Darwin, Gibbon, Dickens, Tolstoy, Shakespeare and Oz.
+The Pocket Library is a reading room: one native C++20 / GUI.Forms application holding a bookcase of **725 books**, each set as a printed book on the paper you choose and opened to the page you left. Scripture, the rabbinic writings and the Church Fathers stand beside the lexicons, Plato, Darwin, Gibbon, Dickens, Tolstoy, Shakespeare and Oz.
 
 ![The Pocket Library](books/pocketlibrary/screens/readme.jpg)
 

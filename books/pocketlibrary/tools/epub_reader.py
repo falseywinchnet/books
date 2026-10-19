@@ -135,7 +135,8 @@ class EpubBook:
         self.base = posixpath.dirname(self.opf_path)
         opf = ElementTree.fromstring(self.archive.read(self.opf_path))
         metadata = opf.find(OPF + "metadata")
-        self.title = (metadata.findtext(DC + "title") or "").strip()
+        # A title broken across lines (CCEL's) is one line.
+        self.title = re.sub(r"\s+", " ", metadata.findtext(DC + "title") or "").strip()
         self.creators = [creator.text.strip() for creator in metadata.findall(DC + "creator") if creator.text]
         self.language = (metadata.findtext(DC + "language") or "").strip()
         manifest = {}
@@ -178,7 +179,22 @@ def collect_notes(epub: EpubBook) -> tuple:
         for item in body.iter(XHTML + "aside"):
             if item.get("id"):
                 notes[(path, item.get("id"))] = item
+    # Notes kept in the chapter that calls them (Wikisource's exports: an <ol> of <li
+    # epub:type="footnote"> at the chapter's end).
+    for path in epub.spine:
+        if path in note_documents:
+            continue
+        for item in body_of(epub.document(path)).iter():
+            if "footnote" in epub_types(item) and item.get("id"):
+                notes[(path, item.get("id"))] = item
     return notes, note_documents
+
+
+def footnote_list(element: ElementTree.Element) -> bool:
+    """A list of footnotes standing in the chapter (Wikisource's references): set where
+    each is called, not again where the list stands."""
+    items = [child for child in element if local(child.tag) == "li"]
+    return bool(items) and all("footnote" in epub_types(item) for item in items)
 
 
 def heading_text(element: ElementTree.Element) -> str:
@@ -235,6 +251,8 @@ class Walker:
         elif tag == "hr":
             self.book.add("P", "blank")
             self.book.dropped["<hr> (a break between sections, set as space)"] += 1
+        elif tag in ("ol", "ul") and footnote_list(element):
+            self.book.head_counts["footnotes set where they are called, not in the chapter's list"] += 1
         elif tag in ("ol", "ul"):
             number = 0
             for item in element:
@@ -355,6 +373,8 @@ class Walker:
             self.note(element)
         elif tag == "a" and ("backlink" in kinds or element.get("role") == "doc-backlink"):
             pass
+        elif tag == "span" and "mw-cite-backlink" in classes:
+            pass  # Wikisource's "↑" back to the call
         elif tag == "br" and self.in_note:
             # A footnote holds no paragraphs or lines of its own: the break is a space.
             self.book.head_counts["line breaks inside a footnote read as a space"] += 1
@@ -384,7 +404,7 @@ class Walker:
             self.writer.text(heading_text(anchor))
             self.book.dropped["note references without their note"] += 1
             return
-        label = heading_text(anchor) or "*"
+        label = heading_text(anchor).strip("[]") or "*"
         if self.in_note:
             # A note on a note (an editor's comment on the author's note, as in Gibbon):
             # the reader sets no note inside a note, so it stands in brackets in its own.
@@ -455,6 +475,10 @@ def import_epub(data: bytes, book: typing.Any, division_id: str) -> None:
             book.dropped["endnote documents (their notes are set at the foot of the page)"] += 1
             continue
         if any(kind in SKIPPED_TYPES for kind in kinds):
+            book.dropped["the publisher's pages (title page, imprint, colophon, licence)"] += 1
+            continue
+        if path.endswith(".about.html") and "Christian Classics Ethereal Library" in "".join(body.itertext()):
+            # CCEL's own title page and its notice on its edition; the text is the book's.
             book.dropped["the publisher's pages (title page, imprint, colophon, licence)"] += 1
             continue
         # The chapter is named by its first heading.

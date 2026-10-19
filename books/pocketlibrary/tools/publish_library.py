@@ -50,7 +50,7 @@ def main() -> int:
     if len(sys.argv) < 2:
         print(__doc__)
         return 2
-    folder = Path(sys.argv[1])
+    folder = Path(sys.argv[1]).resolve()
     names = sys.argv[2:] or sorted(path.name for path in folder.glob("*.plb"))
     for name in names:
         if not PART.match(name):
