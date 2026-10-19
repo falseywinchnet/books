@@ -11,7 +11,9 @@ def main():
     parser.add_argument("installer", type=Path)
     args = parser.parse_args()
     with tempfile.TemporaryDirectory(prefix="pocketlibrary-installer-test-") as scratch:
-        installed = Path(scratch) / "Pocket Library"
+        # NSIS takes /D= and _?= unquoted, and Python quotes an argument with a space in it,
+        # so the test folder has none (the installer's own default, "Pocket Library", does).
+        installed = Path(scratch) / "PocketLibrary"
         native_directory = str(installed).replace("/", "\\")
         subprocess.run([str(args.installer.resolve()), "/S", "/D=" + native_directory], check=True, timeout=90)
         if not (installed / "pocketlibrary.exe").is_file():
